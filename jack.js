@@ -1,3 +1,7 @@
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+});
