@@ -2,28 +2,29 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jack's Website</title>
 <link href="jack.css" rel="stylesheet" type="text/css" media="screen">
 <script type="text/javascript" src="jack.js"></script>
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <meta name="author" content="Antonio Pratas">
-<title>How to create a resizing menu bar | Webdesigner Depot</title>
-<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
-<script src="https://code.jquery.com/jquery-latest.js"></script>
 </head>
   <body>
-    <header class=“large”>
-    <nav><img class=“logo” src="wdd.png"/>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Posts</a></li>
-      <li><a href="#">Awesome Freebies</a></li>
-    </ul> </nav>
-    </header>
-    <section>
-      <p>Let's get that menu small!</p>
-      <p>End of the line.</p>
-    </section>
+    <nav>
+  <div class="nav-mobile">
+    <a id="nav-toggle" href="#!"><span></span></a>
+  </div>
+  <ul class="nav-list">
+    <li><a href="#!">Home</a></li>
+    <li><a href="#!">About</a></li>
+    <li><a href="#!">Services</a>
+      <ul class="nav-dropdown">
+        <li><a href="#!">Web Design</a></li>
+        <li><a href="#!">Web Development</a></li>
+        <li><a href="#!">Graphic Design</a></li>
+      </ul>
+    </li>
+    <li><a href="#!">Pricing</a></li>
+    <li><a href="#!">Contact</a></li>
+  </ul>
+</nav>
+
   </body>
 </html> 
