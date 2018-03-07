@@ -23,7 +23,7 @@
 	background-size: cover;
 	text-align: left;
 	color: white;
-	font-size: 68px;
+	font-size: 48px;
 	font-family: Times;
 	padding-top: 60px;
 	background-position: center;
@@ -31,7 +31,7 @@
 #webSiteTitle{
 	color: darkgreen;
     	height: auto;
-    	width: 70%;
+    	width: 60%;
     	text-align: center;
     	margin: auto;
     	padding: 15px;
