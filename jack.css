@@ -49,6 +49,9 @@
 	width: 60%;
 	height: auto;
 	border: 2px solid #A4A4A4;
+	padding: 15px;
+	margin: auto;
+	margin-top: 10px;
 }
 #menu{
 	height: 60px;
