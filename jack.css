@@ -27,6 +27,15 @@
 	font-size: 68px;
 	font-family: Times;
 	}
+#webSiteTitle{
+	color: #b7b7b7;
+    	height: auto;
+    	width: 40%;
+    	text-align: center;
+    	margin: auto;
+    	padding: 15px;
+    	border: 2px solid #A4A4A4;
+}
 #menu{
 	height: 60px;
 	width: 100%;
