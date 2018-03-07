@@ -38,6 +38,11 @@
     	border: 2px solid #A4A4A4;
 
 }
+#menuDays{
+	color: darkgreen;
+	font-size: 36;
+	text align: left;
+}
 #menu{
 	height: 60px;
 	width: 100%;
