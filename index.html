@@ -1,26 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Jack's Website</title>
+<title>Recipe Website</title>
 <link href="jack.css" rel="stylesheet" type="text/css" media="screen">
 </head>
-<body>
-
-<div class="topnav" id="myTopnav">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-<div style="padding-left:16px">
-  <h2>Tester Webpage</h2>
-  <h5>This is just a tester webpage, hoping one day to be great</h5>
-</div>
-
+<body id="body">
+ 	<div id="header">Wildling's</div>
+    <nav id="menu" class="clearfix"> 
+      <ul class="topnav" id="myTopnav">
+  <li><a href="http://foothillertech.com/student/globalit/2016/04_07/projects/teamData/jack.php">HOME</a></li>
+  <li><a href="http://foothillertech.com/student/globalit/2016/04_07/projects/teamData/category.php">CATEGORY</a></li>
+  <li><a href="http://foothillertech.com/student/globalit/2016/04_07/projects/teamData/search.php">SEARCH</a></li>
+   <li><a href="http://foothillertech.com/student/globalit/2016/04_07/projects/teamData/contact.php">CONTACT US</a></li>
+   <li><a>LOGIN/LOGOUT</a></li>
+   <li><a>ADD RECIPE</a></li>
+   <li><a>SOCIAL MEDIA</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
 <script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -29,7 +30,10 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-</script>
-
+</script>	</nav> 
+    <div id="content">
+    		<div id="title">About Wildling's</div>
+            <div id="about">Ever since we were young, the Wildling's team have had a love for food. We decided the best way to share our love for food is to showcase our favorite home recipes on the web. This way anyone who cooks can share our love for food. Happy cooking!<br><br>-The Wildling's Team</div>
+    
 </body>
 </html>
