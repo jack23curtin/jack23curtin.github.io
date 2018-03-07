@@ -67,7 +67,7 @@
 	
 	}	
 #title{
-	color: #5cb27a;
+	color: darkgreen;
 	height: 40px;
 	line-height: 60px;
 	width: 100%;
@@ -257,7 +257,7 @@ h2{
    padding: 10px;
 }
 #about{
-	color: darkgreen;
+	color: #A4A4A4;
 	height: auto;
 	width: 40%;
 	font-size: 18px;
