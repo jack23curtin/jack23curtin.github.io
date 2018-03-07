@@ -23,18 +23,18 @@
 	background-size: cover;
 	text-align: left;
 	color: white;
-	line-height: 546px;
 	font-size: 68px;
 	font-family: Times;
 	}
 #webSiteTitle{
-	color: #b7b7b7;
+	color: darkgreen;
     	height: auto;
-    	width: 40%;
+    	width: 70%;
     	text-align: center;
     	margin: auto;
     	padding: 15px;
     	border: 2px solid #A4A4A4;
+	background: rgba(183,183,183,0.5);
 }
 #menu{
 	height: 60px;
