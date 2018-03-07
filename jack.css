@@ -43,6 +43,13 @@
 	font-size: 36;
 	text align: left;
 }
+#menuTile{
+	font-size: 36;
+	text align: left;
+	width: 60%;
+	height: auto;
+	border: 2px solid #A4A4A4;
+}
 #menu{
 	height: 60px;
 	width: 100%;
