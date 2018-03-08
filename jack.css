@@ -53,6 +53,10 @@
 	margin: auto;
 	margin-top: 10px;
 }
+#foodItem{
+	font-size: 18px;
+	color: #A4A4A4;
+}
 #menu{
 	height: 60px;
 	width: 100%;
