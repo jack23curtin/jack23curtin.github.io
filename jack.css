@@ -247,23 +247,8 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
 }
-.tileHome{
-		position: relative; 
-	 height: 300px;
-	 width: 600px;
-	 
-	 display: inline-block;
-	 text-align: center;
-	 line-height: 50px;
-	  overflow: hidden;
-	
-	  
-	  
-	
-}
-#tHome{
-	margin: 10px;
-	}
+
+
 h2{
    position: absolute; 
    top: 10px; 
@@ -286,79 +271,6 @@ h2{
 	margin-top: 3px;
 	
 	}
-h3{
-   position: absolute; 
-	top: 70%;
-	background: rgba(100, 100, 100, 0.5);
-   color: white; 
-   font-size: 30px;
-   width: auto;
-   float: right; 
-   padding: 5px;
-}	
-.tileDis{
-		position: relative; 
-	 height: 300px;
-	 width: 530px;
 
-	 display: inline-block;
-	  overflow: hidden;
-	  
-	 
-	  color: #A4A4A4;
-	  text-decoration: none;
-	  line-height: 25px;
-	  padding-left: 20px;
-	  padding-right: 20px;
-	 
-	  
-	
-}
-span{
-	
-	 text-decoration: none;
-	 color: #A4A4A4;
-	}
-	
-#tHome:hover{
-		box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.65), 0 6px 50px 0 rgba(0, 0, 0, 0.30);
-	  
-	
-}	
 
-#picyrec{
-	height: auto;
-	width:auto;
-	 border: 2px solid #A4A4A4;
-	 margin: 10px;
-	
-}
-#picyrec:hover{
-	box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.65), 0 6px 50px 0 rgba(0, 0, 0, 0.30);
-}
-.infoTile{
-	color: #5cb27a;
-	font-size: 22px;
-	}
-recipeRec picyrec:hover{
-	box-shadow: none;
-}	
-#rTile{
-	
-	
-	height: 300px;
-	}
-#lTile{
-	
-	height: 300px;
-	}	
-	
-.muchInfo{
-	width: 100%;
-	margin-top: 10px;
-	
-	}	
-	#bar{
-		margin: auto;
-	}
 
