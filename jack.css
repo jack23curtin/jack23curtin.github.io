@@ -45,12 +45,13 @@
 }
 #menuTile{
 	text align: left;
-	width: 40%;
+	width: 25%;
 	height: auto;
 	border: 2px solid #A4A4A4;
 	padding: 15px;
 	margin: auto;
 	margin-top: 10px;
+	margin-left: 45px;
 }
 #foodItem{
 	font-size: 22px;
