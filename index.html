@@ -5,7 +5,7 @@
 <title>Jack Website</title>
 <link href="jack.css" rel="stylesheet" type="text/css" media="screen">
 <style type="text/css">
-body {
+#wholePage {
 	background-image: url(mountainBackground.jpg);
 	background-repeat: no-repeat;
     	background-attachment: fixed;
@@ -20,17 +20,17 @@ body {
 <body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
-	jQuery('body').css('display','none');
+	jQuery('#wholePage').css('display','none');
 	jQuery('#selectIcon').css('display','none');
 	jQuery(document).ready(function() {
-		jQuery('body').fadeIn(2000);
+		jQuery('#wholePage').fadeIn(2000);
 		jQuery('#selectIcon').fadeIn(6000);
 		jQuery('a').on('click',function(event){
 			var thetarget = this.getAttribute('target')
 			if (thetarget != "_blank"){			
 				var thehref = this.getAttribute('href')
 				event.preventDefault();
-				jQuery('body').fadeOut(function(){
+				jQuery('#wholePage').fadeOut(function(){
 					//alert(thehref)
 					window.location = thehref					
 				});
@@ -38,15 +38,17 @@ body {
 		});
 	});
 	setTimeout(function(){
-		jQuery('body').fadeIn();
+		jQuery('#wholePage').fadeIn();
 	},1000)
 </script>
-	<div id="greetingDIV">
-		<p> 
-			<a id="greetings">Welcome.</a> <br>
-			<a id="myName">My name is Jack</a> <br>
-			<a id="selectIcon">(Select an icon to get to know me)</a>
-		</p>
+	<div id="wholePage">
+		<div id="greetingDIV">
+			<p> 
+				<a id="greetings">Welcome.</a> <br>
+				<a id="myName">My name is Jack</a> <br>
+				<a id="selectIcon">(Select an icon to get to know me)</a>
+			</p>
+		</div>
 	</div>
 </body>
 </html>
