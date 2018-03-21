@@ -26,5 +26,7 @@
 	color: darkgray;
 	background-color:black;
 	text-decoration:none;
-	margin-bottom: 0px;
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
 }
