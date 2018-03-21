@@ -35,6 +35,8 @@
 	color: #444444;
 }
 #icon1{
-	background-image: url(003-profile.img);
+	background-color: black;
+	height: auto;
+	width: auto;
 }
 
