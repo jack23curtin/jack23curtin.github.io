@@ -2,7 +2,9 @@
 /* CSS Document */
 
 #greetingDIV{
-	margin-left: 50%;
+	text-align: center;
+    	margin: auto;
+    	margin-top: 25%;
 }
 #greetings{
 	color: white;
