@@ -4,11 +4,11 @@
 #greetingDIV{
 	text-align: center;
     	margin: auto;
-    	margin-top: 300px;
+    	margin-top: 200px;
 }
 #greetings{
 	color: white;
-	font-size: 120px;
+	font-size: 150px;
 }
 #myName{
 	color: white;
