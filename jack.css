@@ -5,11 +5,12 @@
 	text-align: center;
     	margin: auto;
     	margin-top: 200px;
+	line-height: 30px;
+	font-family: monospace;
 }
 #greetings{
 	color: white;
 	font-size: 150px;
-	font-family: fantasy;
 }
 #myName{
 	color: white;
