@@ -10,6 +10,7 @@ body {
 	background-repeat: no-repeat;
     	background-attachment: fixed;
     	background-position: 50% 50%; 
+	display: none;
 }
 #selectIcon{
 	display: none;
@@ -23,7 +24,7 @@ body {
 	jQuery('#selectIcon').css('display','none');
 	jQuery(document).ready(function() {
 		jQuery('body').fadeIn(2000);
-		jQuery('#selectIcon').fadeIn(7000);
+		jQuery('#selectIcon').fadeIn(6000);
 		jQuery('a').on('click',function(event){
 			var thetarget = this.getAttribute('target')
 			if (thetarget != "_blank"){			
@@ -42,7 +43,7 @@ body {
 </script>
 	<div id="greetingDIV">
 		<p> 
-			<a id="greetings">Welcome</a> <br>
+			<a id="greetings">Welcome.</a> <br>
 			<a id="myName">My name is Jack</a> <br>
 			<a id="selectIcon">(Select an icon to get to know me)</a>
 		</p>
