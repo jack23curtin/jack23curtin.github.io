@@ -133,7 +133,7 @@
     	display: block;
 }
 #contentDIV{
-	min-height: 700px;
+	min-height: 80%;
 	width:100%;
 	margin-top: 150px;
 	background-color: white;
