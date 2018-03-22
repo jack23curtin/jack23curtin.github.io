@@ -133,12 +133,13 @@
     	display: block;
 }
 #whiteBackDIV{
-	min-height: 80%;
 	width:100%;
 	margin-top: 150px;
 	background-color: white;
    	left: 0;
    	bottom: 0;
+	height: auto;
+    	overflow: scroll;
 }
 html, body {
 	height: 100%;
@@ -170,7 +171,7 @@ html, body {
 }
 #aboutMe{
 	height: auto;
-	width:50%;
+	width:60%;
 	float: right;
 }
 
