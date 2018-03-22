@@ -36,7 +36,8 @@
 }
 #icon1{
 	background-image: url(002-profile.jpg);
-	height: 128px;
-	width: 128px;
+	height: auto;
+	width: auto;
+	margin: 25px;
 }
 
