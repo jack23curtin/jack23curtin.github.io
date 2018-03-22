@@ -57,6 +57,7 @@
 	height: 100px;
 	width: 100px;
 	margin: 25px;
+	float: left;
 }
 #icon1words{
 	display: none;
@@ -75,6 +76,7 @@
 	height: 100px;
 	width: 100px;
 	margin: 25px;
+	float: right;
 }
 #icon2words{
 	display: none;
