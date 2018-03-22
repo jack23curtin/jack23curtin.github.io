@@ -93,5 +93,46 @@
 #icon2:hover #icon2words {
     	display: block;
 }
+#icon3{
+	height: 100px;
+	width: 100px;
+	margin: 25px;
+	float: left;
+}
+#icon3words{
+	display: none;
+    	position: absolute;
+    	z-index: 1;
+	margin-bottom:100px;
+	color: white;
+	font-size: 18px;
+	font-family: monospace;
+	width:100px;
+	text-align: center;
+}
+#icon3:hover #icon3words {
+    	display: block;
+}
+#icon4{
+	height: 100px;
+	width: 100px;
+	margin: 25px;
+	float: right;
+}
+#icon4words{
+	display: none;
+    	position: absolute;
+    	z-index: 1;
+	margin-bottom:100px;
+	color: white;
+	font-size: 18px;
+	font-family: monospace;
+	width:100px;
+	text-align: center;
+}
+#icon4:hover #icon4words {
+    	display: block;
+}
+
 
 
