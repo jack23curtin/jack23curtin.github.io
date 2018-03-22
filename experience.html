@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jack Website</title>
+<link href="jack.css" rel="stylesheet" type="text/css" media="screen">
+<style type="text/css">
+body {
+	background-image: url(mountainBackground.jpg);
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: 50% 50%; 
+	background-size:cover;
+}
+#selectIcon{
+	display: none;
+}
+    </style>
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+	jQuery('body').css('display','none');
+	jQuery('#selectIcon').css('display','none');
+	jQuery(document).ready(function() {
+		jQuery('body').fadeIn(2000);
+		jQuery('#selectIcon').fadeIn(6000);
+		jQuery('a').on('click',function(event){
+			var thetarget = this.getAttribute('target')
+			if (thetarget != "_blank"){			
+				var thehref = this.getAttribute('href')
+				event.preventDefault();
+				jQuery('body').fadeOut(function(){
+					//alert(thehref)
+					window.location = thehref					
+				});
+			}
+		});
+	});
+	setTimeout(function(){
+		jQuery('body').fadeIn();
+	},1000)
+</script>
+	<div id="topDiv">
+		<div id="icon1"><img src="002-profile.jpg" style="width:100px;height:100px;float:left;">
+			<div id="icon1words">Experience</div>
+		</div>
+		<div id="icon2"><img src="001-technology.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Projects</div>
+		</div>
+	</div>
+	<div id="contentDIV">
+	</div>
+	<div id="footer">Copyright 2018 - <a id="footerLink"href="https://jack23curtin.github.io/siteinfo.html">Site Info</div>
+</body>
+</html>
