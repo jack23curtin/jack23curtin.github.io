@@ -66,6 +66,7 @@
 	margin-top:100px;
 	color: white;
 	font-size: 18px;
+	font-family: monospace;
 }
 #icon1:hover #icon1words {
     	display: block;
