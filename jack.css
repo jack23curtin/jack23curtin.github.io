@@ -132,6 +132,11 @@
 #icon4:hover #icon4words {
     	display: block;
 }
+#contentDIV{
+	height: auto;
+	width:100%;
+	margin-top: 10px;
+}
 
 
 
