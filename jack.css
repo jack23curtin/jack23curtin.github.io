@@ -101,7 +101,6 @@
 }
 #icon3words{
 	display: none;
-    	position: absolute;
     	z-index: 1;
 	margin-bottom:100px;
 	color: white;
@@ -133,11 +132,7 @@
 #icon4:hover #bottomImg4 #icon4words {
     	display: block;
 }
-#bottomImg4{
-	height: 200px;
-	width: auto;
-	background-color: blue;
-}
+
 
 
 
