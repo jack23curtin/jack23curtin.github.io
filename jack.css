@@ -54,19 +54,16 @@
    	bottom: 25px;
 }
 #icon1{
-	height: 120px;
-	width: 120px;
+	height: 100px;
+	width: 100px;
 	margin: 25px;
-	background-color: blue;
 }
 #icon1words{
 	display: none;
     	position: absolute;
-    	background-color: #f9f9f9;
-    	min-width: 160px;
-   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     	padding: 12px 16px;
     	z-index: 1;
+	margin-top:100px;
 }
 #icon1:hover #icon1words {
     	display: block;
