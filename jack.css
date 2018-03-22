@@ -132,7 +132,7 @@
 #icon4:hover #icon4words {
     	display: block;
 }
-#contentDIV{
+#whiteBackDIV{
 	min-height: 80%;
 	width:100%;
 	margin-top: 150px;
@@ -145,6 +145,12 @@ html, body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
+}
+#contentDIV{
+	height: 100%;
+	width: 50%;
+	margin: auto;
+	margin-top: 15px;
 }
 
 
