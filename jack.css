@@ -67,6 +67,8 @@
 	color: white;
 	font-size: 18px;
 	font-family: monospace;
+	width:100px;
+	text-align: center;
 }
 #icon1:hover #icon1words {
     	display: block;
@@ -85,6 +87,8 @@
 	color: white;
 	font-size: 18px;
 	font-family: monospace;
+	width:100px;
+	text-align: center;
 }
 #icon2:hover #icon2words {
     	display: block;
