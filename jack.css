@@ -157,6 +157,17 @@ html, body {
 	color: orange;
 	font-family: monospace;
 }
+#basicTxt{
+	color: lightgray;
+	font-size: 18px;
+	font-family: monospace;
+}
+#img{
+	height: 300px;
+	width: 100px;
+	background-color: lightblue;
+	position: absolute;
+}
 
 
 
