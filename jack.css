@@ -168,7 +168,10 @@ html, body {
 	background-color: lightblue;
 	position: absolute;
 }
-
+#aboutMe{
+	height: auto;
+	width:50%;
+}
 
 
 
