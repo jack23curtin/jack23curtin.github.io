@@ -62,6 +62,7 @@
 	font-family: monospace;
 	font-size: 18px;
 	display: hidden;
+	background-color: blue;
 }
 #icon1words:hover{
 	display: block;
