@@ -53,19 +53,9 @@
    	left: 0;
    	bottom: 25px;
 }
-#icon1words{
-	height: 160px;
+#icon1{
+	height: auto;
 	width: auto;
-	margin-left: 30px;
-	margin-top: 130px;
-	color: white;
-	font-family: monospace;
-	font-size: 18px;
-	display: hidden;
-	background-color: blue;
+	margin: 25px;
 }
-#icon1words:hover{
-	display: block;
-}
-
 
