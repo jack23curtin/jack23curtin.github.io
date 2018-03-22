@@ -133,6 +133,11 @@
 #icon4:hover #icon4words {
     	display: block;
 }
+#bottomImg4{
+	height: 200px;
+	width: auto;
+	background-color: blue;
+}
 
 
 
