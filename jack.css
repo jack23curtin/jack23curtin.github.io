@@ -152,6 +152,11 @@ html, body {
 	margin: auto;
 	margin-top: 15px;
 }
+#mainTitle{
+	font-size: 36px;
+	color: orange;
+	font-family: monospace;
+}
 
 
 
