@@ -129,7 +129,7 @@
 	width:100px;
 	text-align: center;
 }
-#icon4:hover #bottomImg4 #icon4words {
+#icon4:hover #icon4words {
     	display: block;
 }
 
