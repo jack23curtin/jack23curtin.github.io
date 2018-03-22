@@ -175,6 +175,20 @@ html, body {
 	width:60%;
 	float: right;
 }
-
-
+.workContainer{
+	width:100%;
+	height: auto;
+	padding: 5px;
+}
+.imageContainer{
+	height: 250px;
+	width: 250px;
+	background-color: lightblue;
+	float: left;
+}
+#secondaryTitle{
+	color: orange;
+	font-size: 24px;
+	font-family: monospace;
+}
 
