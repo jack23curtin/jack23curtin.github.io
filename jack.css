@@ -141,6 +141,7 @@
 	height: auto;
     	overflow: scroll;
 	padding-bottom: 45px;
+	min-height: 80%;
 }
 html, body {
 	height: 100%;
