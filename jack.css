@@ -168,7 +168,6 @@ html, body {
 	height: 300px;
 	width: 250px;
 	background-color: lightblue;
-	position: absolute;
 	float: left;
 }
 #aboutMe{
@@ -198,5 +197,6 @@ html, body {
 	background-color: blue;
 	padding: 5px;
 	overflow:hidden;
+	min-height: 300px;
 }
 
