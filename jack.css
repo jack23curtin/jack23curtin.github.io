@@ -159,6 +159,9 @@ html, body {
 	color: orange;
 	font-family: monospace;
 	line-height: 65px;
+	height:auto;
+	width:100%;
+	margin-top: 30px;
 }
 #basicTxt{
 	color: lightgray;
