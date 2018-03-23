@@ -179,6 +179,7 @@ html, body {
 	width:100%;
 	height: auto;
 	padding: 5px;
+	min-height: 300px;
 }
 .imageContainer{
 	height: 250px;
