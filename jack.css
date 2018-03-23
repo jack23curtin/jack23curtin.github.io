@@ -192,4 +192,10 @@ html, body {
 	font-size: 24px;
 	font-family: monospace;
 }
+#aboutMeContainer{
+	width:100%;
+	height: auto;
+	background-color: blue;
+	padding: 5px;
+}
 
