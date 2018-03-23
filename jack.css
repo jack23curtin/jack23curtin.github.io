@@ -169,6 +169,7 @@ html, body {
 	width: 250px;
 	background-color: lightblue;
 	float: left;
+	margin-right:15px
 }
 #aboutMe{
 	height: auto;
