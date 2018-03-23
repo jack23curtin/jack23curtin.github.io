@@ -182,8 +182,8 @@ html, body {
 	min-height: 300px;
 }
 .imageContainer{
-	height: 250px;
-	width: 250px;
+	height: 150px;
+	width: 150px;
 	background-color: lightblue;
 	float: left;
 	margin-right: 15px;
