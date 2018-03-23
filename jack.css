@@ -172,8 +172,7 @@ html, body {
 }
 #aboutMe{
 	height: auto;
-	width:60%;
-	float: right;
+	width:auto;
 }
 .workContainer{
 	width:100%;
@@ -194,7 +193,6 @@ html, body {
 #aboutMeContainer{
 	width:100%;
 	height: auto;
-	background-color: blue;
 	padding: 5px;
 	overflow:hidden;
 	min-height: 300px;
