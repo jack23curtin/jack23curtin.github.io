@@ -183,7 +183,8 @@ html, body {
 	width:100%;
 	height: auto;
 	padding: 5px;
-	min-height: 300px;
+	min-height: 150px;
+    	margin-bottom: 45px;
 }
 .imageContainer{
 	height: 150px;
