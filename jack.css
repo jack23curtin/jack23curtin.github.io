@@ -204,6 +204,7 @@ html, body {
 	padding: 5px;
 	overflow:hidden;
 	min-height: 300px;
+	margin-bottom: 45px;
 }
 .wrapper {
 	display: grid;
