@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jack Website</title>
+<link href="jack.css" rel="stylesheet" type="text/css" media="screen">
+<style type="text/css">
+body {
+	background-image: url(mountainBackground.jpg);
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: 50% 50%; 
+	background-size:cover;
+}
+#selectIcon{
+	display: none;
+}
+    </style>
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+	jQuery('body').css('display','none');
+	jQuery(document).ready(function() {
+		jQuery('body').fadeIn(1000);
+		jQuery('a').on('click',function(event){
+			var thetarget = this.getAttribute('target')
+			if (thetarget != "_blank"){			
+				var thehref = this.getAttribute('href')
+				event.preventDefault();
+				jQuery('body').fadeOut(function(){
+					//alert(thehref)
+					window.location = thehref					
+				});
+			}
+		});
+	});
+	setTimeout(function(){
+		jQuery('body').fadeIn();
+	},1000)
+</script>
+	<div id="topDiv">
+		<div id="icon2"><img src="004-multimedia.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Contact</div>
+		</div>
+		<div id="icon2"><img src="003-shapes.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Hobbies</div>
+		</div>
+		<div id="icon2"><img src="001-technology.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Projects</div>
+		</div>
+		<a href="https://jack23curtin.github.io/index.html"><div id="icon1"><img src="005-home.jpg" style="width:100px;height:100px;float:left;">
+			<div id="icon1words">Home</div>
+		</div></a>
+	</div>
+	<div id="whiteBackDIV">
+		<div id="contentDIV">
+			<div id="mainTitle">Previous Projects<br></div>
+			<div id="aboutMeContainer">
+				<div id="img"></div>
+				<div id="aboutMe">
+				<span id="basicTxt">Euismod rationibus cotidieque eos id, te meis vituperata pri. Quo ut brute libris probatus, ea sint patrioque percipitur pri, fugit veritus sea ut. In has esse magna tamquam, choro corrumpit ei has. Soleat nominati intellegat sea id, his posse platonem incorrupte ut. Probo viderer minimum ius in. Ea nec discere appareat scripserit.  In lorem vivendo cotidieque quo, eu has nulla mnesarchum, facete omnesque perpetua vis ne. Ad mei dicit dolorem. Eu regione bonorum duo. Ea putant oporteat mei.</span>
+				</div>
+			</div>
+			<div id="mainTitle">Previous Work Experience<br></div>
+			<div class="workContainer">
+				<div class="imageContainer"></div>
+				<span id="secondaryTitle"><strong>AVID</strong> - Dates<br></span>
+				<span id="basicTxt">I worked here really hardI worked here really hardI worked here really hardI worked here really hardI worked here really hardI worked here really hardI worked here really hardI worked here really hardI worked here really hard</span>
+			</div>
+			<div class="workContainer">
+				<div class="imageContainer"></div>
+				<span id="secondaryTitle"><strong>GOOGLE</strong> - Dates<br></span>
+				<span id="basicTxt">I worked here really hardI worked here really hardI worked here reallI worked here really hardI worked here really hardI worked here really hardI worked here reallhardI worked here really hardI worked here really hardI worked here really hardI worked here really hardI worked here really hardI worked here really hard</span>
+			</div>
+			
+		</div>
+	</div>
+	<div id="footer">Copyright 2018 - <a id="footerLink"href="https://jack23curtin.github.io/siteinfo.html">Site Info</div>
+</body>
+</html>
