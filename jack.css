@@ -226,4 +226,8 @@ html, body {
     	min-width: 190px;
 
 }
-
+#optionsDIV{
+	width: 80%;
+	margin:auto;
+	height: auto;
+}
