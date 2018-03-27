@@ -217,7 +217,6 @@ html, body {
 .box {
 	background-color: darkgray;
 	color: #fff;
-	border-radius: 5px;
 	padding: 20px;
 	font-size: 150%;
 	font-family: monospace;
