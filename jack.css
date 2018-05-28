@@ -6,6 +6,7 @@
 }
 .wrapper a:hover{
 	text-decoration:underline;
+	text-decoration-color: white;
 }
 #greetingDIV{
 	text-align: center;
