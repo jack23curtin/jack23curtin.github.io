@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-a{
+.wrapper a{
 	text-decoration:none;
 }
 #greetingDIV{
