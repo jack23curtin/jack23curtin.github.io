@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+a{
+	text-decoration:none;
+}
 #greetingDIV{
 	text-align: center;
     	margin: auto;
@@ -212,6 +215,7 @@ html, body {
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
 	background-color: #fff;
 	color: #444;
+	text
 }
 
 .box {
