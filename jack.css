@@ -4,6 +4,9 @@
 .wrapper a{
 	text-decoration:none;
 }
+.wrapper a:hover{
+	text-decoration:underline;
+}
 #greetingDIV{
 	text-align: center;
     	margin: auto;
