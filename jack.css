@@ -233,7 +233,7 @@ html, body {
     	min-width: 190px;
 
 }
-a .box:hover{
+.box:hover{
 	background-color: lightgray;
 }
 #optionsDIV{
