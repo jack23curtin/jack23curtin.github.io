@@ -44,15 +44,23 @@ body {
 var slideIndex = 1;
 showDivs(slideIndex);
 
-function plusDivs(n) {
+function plusDivs1(n) {
+  showDivs(slideIndex += n);
+}
+function plusDivs2(n) {
+  showDivs(slideIndex += n);
+}
+function plusDivs3(n) {
   showDivs(slideIndex += n);
 }
 
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
+  if (n > x.length) 
+  	{slideIndex = 1}    
+  if (n < 1) 
+  	{slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
@@ -84,8 +92,8 @@ function showDivs(n) {
 					  <img class="mySlides" src="001-technology.jpg" style="width:150; display:none">
 					  <img class="mySlides" src="005-home.jpg" style="width:150; display:none">
 
-					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs1(-1)">&#10094;</button>
+					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs1(1)">&#10095;</button>
 					</div>
 				</div>
 				<span id="secondaryTitle"><strong>Website Design</strong><br></span>
@@ -101,8 +109,8 @@ function showDivs(n) {
 					  <img class="mySlides" src="001-technology.jpg" style="width:150; display:none">
 					  <img class="mySlides" src="005-home.jpg" style="width:150; display:none">
 
-					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
 					</div>
 				</div>
 				<span id="secondaryTitle"><strong>Water Polo</strong><br></span>
@@ -118,8 +126,8 @@ function showDivs(n) {
 					  <img class="mySlides" src="001-technology.jpg" style="width:150; display:none">
 					  <img class="mySlides" src="005-home.jpg" style="width:150; display:none">
 
-					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs3(-1)">&#10094;</button>
+					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs3(1)">&#10095;</button>
 					</div>
 				</div>
 				<span id="secondaryTitle"><strong>Ukulele</strong><br></span>
