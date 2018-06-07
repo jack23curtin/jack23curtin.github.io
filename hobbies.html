@@ -41,54 +41,58 @@ body {
 	},1000)
 </script>
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+var slideIndex1 = 1;
+var slideIndex2 = 1;
+var slideIndex3 = 1;
+showDivs(slideIndex1);
+showDivs(slideIndex2);
+showDivs(slideIndex3);
 
 function plusDivs1(n) {
-  showDivs1(slideIndex += n);
+  showDivs1(slideIndex1 += n);
 }
 function plusDivs2(n) {
-  showDivs2(slideIndex += n);
+  showDivs2(slideIndex2 += n);
 }
 function plusDivs3(n) {
-  showDivs3(slideIndex += n);
+  showDivs3(slideIndex3 += n);
 }
 
 function showDivs1(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("mySlides1");
   if (n > x.length) 
-  	{slideIndex = 1}    
+  	{slideIndex1 = 1}    
   if (n < 1) 
-  	{slideIndex = x.length}
+  	{slideIndex1 = x.length}
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex1-1].style.display = "block";  
 }
 function showDivs2(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("mySlides2");
   if (n > x.length) 
-  	{slideIndex = 1}    
+  	{slideIndex2 = 1}    
   if (n < 1) 
-  	{slideIndex = x.length}
+  	{slideIndex2 = x.length}
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex2-1].style.display = "block";  
 }
 function showDivs3(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("mySlides3");
   if (n > x.length) 
-  	{slideIndex = 1}    
+  	{slideIndex3 = 1}    
   if (n < 1) 
-  	{slideIndex = x.length}
+  	{slideIndex3 = x.length}
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex3-1].style.display = "block";  
 }
 </script>
 	<div id="topDiv">
@@ -111,10 +115,10 @@ function showDivs3(n) {
 			<div id="aboutMeContainer">
 				<div id="hobbyImg">
 					<div class="w3-content w3-display-container">
-					  <img class="mySlides" src="004-multimedia.jpg" style="width:150">
-					  <img class="mySlides" src="002-profile.jpg" style="width:150; display:none">
-					  <img class="mySlides" src="001-technology.jpg" style="width:150; display:none">
-					  <img class="mySlides" src="005-home.jpg" style="width:150; display:none">
+					  <img class="mySlides1" src="004-multimedia.jpg" style="width:150">
+					  <img class="mySlides1" src="002-profile.jpg" style="width:150; display:none">
+					  <img class="mySlides1" src="001-technology.jpg" style="width:150; display:none">
+					  <img class="mySlides1" src="005-home.jpg" style="width:150; display:none">
 
 					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs1(-1)">&#10094;</button>
 					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs1(1)">&#10095;</button>
@@ -128,10 +132,10 @@ function showDivs3(n) {
 			<div id="aboutMeContainer">
 				<div id="hobbyImg">
 					<div class="w3-content w3-display-container">
-					  <img class="mySlides" src="004-multimedia.jpg" style="width:150">
-					  <img class="mySlides" src="002-profile.jpg" style="width:150; display:none">
-					  <img class="mySlides" src="001-technology.jpg" style="width:150; display:none">
-					  <img class="mySlides" src="005-home.jpg" style="width:150; display:none">
+					  <img class="mySlides2" src="004-multimedia.jpg" style="width:150">
+					  <img class="mySlides2" src="002-profile.jpg" style="width:150; display:none">
+					  <img class="mySlides2" src="001-technology.jpg" style="width:150; display:none">
+					  <img class="mySlides2" src="005-home.jpg" style="width:150; display:none">
 
 					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
 					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
@@ -145,10 +149,10 @@ function showDivs3(n) {
 			<div id="aboutMeContainer">
 				<div id="hobbyImg">
 					<div class="w3-content w3-display-container">
-					  <img class="mySlides" src="004-multimedia.jpg" style="width:150">
-					  <img class="mySlides" src="002-profile.jpg" style="width:150; display:none">
-					  <img class="mySlides" src="001-technology.jpg" style="width:150; display:none">
-					  <img class="mySlides" src="005-home.jpg" style="width:150; display:none">
+					  <img class="mySlides3" src="004-multimedia.jpg" style="width:150">
+					  <img class="mySlides3" src="002-profile.jpg" style="width:150; display:none">
+					  <img class="mySlides3" src="001-technology.jpg" style="width:150; display:none">
+					  <img class="mySlides3" src="005-home.jpg" style="width:150; display:none">
 
 					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs3(-1)">&#10094;</button>
 					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs3(1)">&#10095;</button>
