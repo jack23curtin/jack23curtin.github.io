@@ -247,3 +247,6 @@ html, body {
 	background-color: lightgrey;
 
 }
+img {
+	margin: 0 auto;
+}
