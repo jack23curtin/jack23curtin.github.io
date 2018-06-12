@@ -193,13 +193,6 @@ html, body {
 	min-height: 150px;
     	margin-bottom: 45px;
 }
-.imageContainer{
-	height: 100px;
-	width: 100px;
-	background-color: white;
-	float: left;
-	margin-right: 15px;
-}
 #secondaryTitle{
 	color: orange;
 	font-size: 24px;
