@@ -194,9 +194,9 @@ html, body {
     	margin-bottom: 45px;
 }
 .imageContainer{
-	height: 150px;
-	width: 150px;
-	background-color: lightblue;
+	height: 100px;
+	width: 100px;
+	background-color: white;
 	float: left;
 	margin-right: 15px;
 }
