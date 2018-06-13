@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Submit Page</title>
-  </head>
-  <body>
-    <h1>Submit Page</h1>
-    <form action="connect.php" method="POST">
-      ID: <input type="int" name="id"/><br><br>
-      Title: <input type="varchar" name="title"/><br><br>
-      Author: <input type="text" name="author"/><br><br>
-      Date: <input type="date" name="date"/><br><br>
-      <input type="submit"/>
+  <meta charset="utf-8">
+</head>
+
+<body>
+    <h1> Database Input Page </h1>
+    <p> Here you can input to the Database </p>
+    <a href="View.html">View Database.</a>
+
+    <form action="submit.php" method="post">
+        <p>First Name: <input type="text" name="firstname" /></p>
+        <p>Surname: <input type="text" name="surname" /></p>
+        <p>Age: <input type="text" name="age" /></p>
+        <p><input type="submit" /></p>
     </form>
-  </body>
+</body>
 </html>
