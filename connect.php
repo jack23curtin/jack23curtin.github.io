@@ -4,7 +4,7 @@ $title = filter_input(INPUT_POST,'title');
 $author = filter_input(INPUT_POST,'author');
 $date = filter_input(INPUT_POST,'date');
      
-$host = "localhost";
+$host = "localhost:8080";
 $dbusername = "root";
 $dbpassword = "";
 $dbname = "testFile_db";
