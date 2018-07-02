@@ -240,8 +240,7 @@ html, body {
 
 }
 #iframeCenter{
-	width: 100%;
+	width: min-content;
 	height:100%;
-	background-color: blue;
 	margin: auto;
 }
