@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jack Website</title>
+<link href="jack.css" rel="stylesheet" type="text/css" media="screen">
+<style type="text/css">
+body {
+	background-image: url(jack23curtin.github.io/images/mountainBackground.jpg);
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: 50% 50%; 
+	background-size:cover;
+}
+#selectIcon{
+	display: none;
+}
+    </style>
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+	jQuery('body').css('display','none');
+	jQuery('#selectIcon').css('display','none');
+	jQuery(document).ready(function() {
+		jQuery('body').fadeIn(2000);
+		jQuery('#selectIcon').fadeIn(6000);
+		jQuery('a').on('click',function(event){
+			var thetarget = this.getAttribute('target')
+			if (thetarget != "_blank"){			
+				var thehref = this.getAttribute('href')
+				event.preventDefault();
+				jQuery('body').fadeOut(function(){
+					//alert(thehref)
+					window.location = thehref					
+				});
+			}
+		});
+	});
+	setTimeout(function(){
+		jQuery('body').fadeIn();
+	},1000)
+</script>
+	<div id="topDiv">
+		<a href="https://jack23curtin.github.io/experience.html"><div id="icon1"><img src="jack23curtin.github.io/images/icons/002-profile.jpg" style="width:100px;height:100px;float:left;">
+			<div id="icon1words">Who I am/ Resume</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/projects.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/001-technology.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Projects</div>
+		</div></a>
+	</div>
+	<div id="greetingDIV">
+		<p> 
+			<span id="greetings">Welcome.</span> <br>
+			<span id="myName">My name is Jack</span> <br>
+			<span id="selectIcon">(Select an icon to get to know me)</span>
+		</p>
+	</div>
+	<div id="bottomDiv">
+		<a href="https://jack23curtin.github.io/contact.html"><div id="icon4"><div id="icon4words">Contact<br></div>
+			<img src="jack23curtin.github.io/images/icons/004-multimedia.jpg" style="width:100px;height:100px;float:right;bottom: 0;position: absolute;">
+		</div></a>
+		<a href="https://jack23curtin.github.io/hobbies.html"><div id="icon3"><div id="icon3words">Hobbies</div>
+			<img src="jack23curtin.github.io/images/icons/003-shapes.jpg" style="width:100px;height:100px;float:left;bottom: 0;position: absolute;">
+		</div></a>
+	</div>
+	<div id="footer">Copyright 2018 - <a id="footerLink"href="https://jack23curtin.github.io/siteinfo.html">Site Info</div>
+</body>
+</html>

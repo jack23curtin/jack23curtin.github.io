@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jack Website</title>
+<link href="jack.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style type="text/css">
+body {
+	background-image: url(jack23curtin.github.io/images/mountainBackground.jpg);
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: 50% 50%; 
+	background-size:cover;
+}
+#selectIcon{
+	display: none;
+}
+    </style>
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+	jQuery('body').css('display','none');
+	jQuery(document).ready(function() {
+		jQuery('body').fadeIn(1000);
+		jQuery('a').on('click',function(event){
+			var thetarget = this.getAttribute('target')
+			if (thetarget != "_blank"){			
+				var thehref = this.getAttribute('href')
+				event.preventDefault();
+				jQuery('body').fadeOut(function(){
+					//alert(thehref)
+					window.location = thehref					
+				});
+			}
+		});
+	});
+	setTimeout(function(){
+		jQuery('body').fadeIn();
+	},1000)
+</script>
+	<div id="topDiv">
+		<a href="https://jack23curtin.github.io/hobbies.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/003-shapes.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Hobbies</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/projects.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/001-technology.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Projects</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/experience.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/002-profile.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Resume</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/index.html"><div id="icon1"><img src="jack23curtin.github.io/images/icons/005-home.jpg" style="width:100px;height:100px;float:left;">
+			<div id="icon1words">Home</div>
+		</div></a>
+	</div>
+	<div id="whiteBackDIV">
+		<div id="contentDIV">
+			<div id="iframeCenter">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeW465PZ-mAddZHXFZYlxGDr3uM6G27ZEapWFr00Nzy7o7whw/viewform?embedded=true" width="700" height="1050" frameborder="0" marginheight="0" marginwidth="auto">Loading...</iframe>
+			</div>
+		</div>
+	</div>
+	<div id="footer">Copyright 2018 - <a id="footerLink"href="https://jack23curtin.github.io/siteinfo.html">Site Info</div>
+</body>
+</html>

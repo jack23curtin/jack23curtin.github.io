@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wrapper a{
+	text-decoration:none;
+}
+.wrapper a:hover{
+	text-decoration:underline;
+	text-decoration-color: white;
+}
+#greetingDIV{
+	text-align: center;
+    	margin: auto;
+    	margin-top: 250px;
+	line-height: 30px;
+	font-family: monospace;
+}
+#greetings{
+	color: white;
+	font-size: 150px;
+}
+#myName{
+	color: white;
+	font-size: 24px;
+}
+#selectIcon{
+	color: white;
+	font-size: 16px;
+}
+#footer{
+	width: 100%;
+	height: auto;
+	color: #444444;
+	background-color:black;
+	text-decoration:none;
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
+	text-align: center;
+	font-family: monospace;
+}
+#footerLink{
+	color: #444444;
+}
+.icon{
+	height: auto;
+	width: auto;
+	margin: 25px;
+}
+#topDiv{
+	width:100%;
+	height:auto;
+	padding: 5px;
+}
+#bottomDiv{
+	width:100%;
+	height:150px;
+	padding: 5px;
+	position: fixed;
+   	left: 0;
+   	bottom: 25px;
+}
+#icon1{
+	height: 100px;
+	width: 100px;
+	margin: 25px;
+	float: left;
+}
+#icon1words{
+	display: none;
+    	position: absolute;
+    	z-index: 1;
+	margin-top:100px;
+	color: white;
+	font-size: 18px;
+	font-family: monospace;
+	width:100px;
+	text-align: center;
+}
+#icon1:hover #icon1words {
+    	display: block;
+}
+#icon2{
+	height: 100px;
+	width: 100px;
+	margin: 25px;
+	float: right;
+}
+#icon2words{
+	display: none;
+    	position: absolute;
+    	z-index: 1;
+	margin-top:100px;
+	color: white;
+	font-size: 18px;
+	font-family: monospace;
+	width:100px;
+	text-align: center;
+}
+#icon2:hover #icon2words {
+    	display: block;
+}
+#icon3{
+	height: 100px;
+	width: 100px;
+	margin: 25px;
+	float: left;
+}
+#icon3words{
+	display: none;
+    	z-index: 1;
+	margin-bottom:100px;
+	color: white;
+	font-size: 18px;
+	font-family: monospace;
+	width:100px;
+	text-align: center;
+}
+#icon3:hover #icon3words {
+    	display: block;
+}
+#icon4{
+	height: 135px;
+	width: 100px;
+	margin: 35px;
+	float: right;
+}
+#icon4words{
+	display: none;
+    	position: absolute;
+    	z-index: 1;
+	margin-bottom:100px;
+	color: white;
+	font-size: 18px;
+	font-family: monospace;
+	width:100px;
+	text-align: center;
+}
+#icon4:hover #icon4words {
+    	display: block;
+}
+#whiteBackDIV{
+	width:100%;
+	margin-top: 150px;
+	background-color: white;
+   	left: 0;
+   	bottom: 0;
+	height: auto;
+    	overflow: scroll;
+	padding-bottom: 45px;
+	min-height: 100%;
+}
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+#contentDIV{
+	height: 100%;
+	width: 65%;
+	margin: auto;
+	margin-top: 15px;
+}
+#mainTitle{
+	font-size: 36px;
+	color: orange;
+	font-family: monospace;
+	line-height: 65px;
+	height:auto;
+	width:100%;
+	margin-top: 30px;
+}
+#basicTxt{
+	color: #aaaaaa;
+	font-size: 18px;
+	font-family: monospace;
+}
+#img{
+	height: 300px;
+	width: 250px;
+	background-color: lightblue;
+	float: left;
+	margin-right:15px
+}
+#aboutMe{
+	height: auto;
+	width:auto;
+}
+.workContainer{
+	width:100%;
+	height: auto;
+	padding: 5px;
+	min-height: 150px;
+    	margin-bottom: 45px;
+}
+#secondaryTitle{
+	color: orange;
+	font-size: 24px;
+	font-family: monospace;
+}
+#aboutMeContainer{
+	width:100%;
+	height: auto;
+	padding: 5px;
+	overflow:hidden;
+	min-height: 20px;
+	margin-bottom: 45px;
+}
+.wrapper {
+	display: grid;
+    	grid-gap: 40px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+	background-color: #fff;
+	color: #444;
+	text
+}
+
+.box {
+	background-color: darkgray;
+	color: #fff;
+	padding: 20px;
+	font-size: 150%;
+	font-family: monospace;
+	text-align: center;
+	margin: auto;
+    	min-width: 190px;
+
+}
+.box:hover{
+	background-color: lightgray;
+}
+#optionsDIV{
+	width: 80%;
+	margin:auto;
+	height: auto;
+}
+#hobbyImg{
+	height: auto;
+	width: 100%;
+
+}
+#iframeCenter{
+	width: min-content;
+	height:100%;
+	margin: auto;
+	margin-top: 20px;
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jack Website</title>
+<link href="jack.css" rel="stylesheet" type="text/css" media="screen">
+<style type="text/css">
+body {
+	background-image: url(jack23curtin.github.io/images/mountainBackground.jpg);
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: 50% 50%; 
+	background-size:cover;
+}
+#selectIcon{
+	display: none;
+}
+    </style>
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+	jQuery('body').css('display','none');
+	jQuery(document).ready(function() {
+		jQuery('body').fadeIn(1000);
+		jQuery('a').on('click',function(event){
+			var thetarget = this.getAttribute('target')
+			if (thetarget != "_blank"){			
+				var thehref = this.getAttribute('href')
+				event.preventDefault();
+				jQuery('body').fadeOut(function(){
+					//alert(thehref)
+					window.location = thehref					
+				});
+			}
+		});
+	});
+	setTimeout(function(){
+		jQuery('body').fadeIn();
+	},1000)
+</script>
+	<div id="topDiv">
+		<a href="https://jack23curtin.github.io/contact.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/004-multimedia.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Contact</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/hobbies.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/003-shapes.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Hobbies</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/experience.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/002-profile.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Resume</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/index.html"><div id="icon1"><img src="jack23curtin.github.io/images/icons/005-home.jpg" style="width:100px;height:100px;float:left;">
+			<div id="icon1words">Home</div>
+		</div></a>
+	</div>
+	<div id="whiteBackDIV">
+		<div id="contentDIV">
+			<div id="mainTitle">Previous Projects<br></div>
+			<div id="aboutMeContainer">
+				<span id="secondaryTitle"><strong>FRI Drone Mapping</strong> - (Spring 2018)<br></span>
+				<span id="secondaryTitle">Project Researcher<br></span>
+				<div id="aboutMe">
+					<span id="basicTxt">This project was for a new program at Binghamton University, Freshman Research Immersion, where undergrads are giving the opportunity to start researching young in their academic career. My team and I had the idea of being able to map urban areas after natural disasters, where roads and bridges would be too dangerous for humans to cross. The most difficult part of the project was coming up with an idea that had not been done before. My favorite part of the project was getting to work on a team, where each person brought their own ideas and opinion to the table.<br><br></span>
+					<span id="basicTxt"><strong>Technology used:</strong></span><br><br>
+					<div id="optionsDIV">
+						<div class="wrapper">
+							<div class="box">Python</div>
+							<div class="box">Anaconda</div>
+							<div class="box">Google Suite</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="aboutMeContainer">
+				<span id="secondaryTitle"><strong>Land Cover Change of the Blanding's Turtle Habitat</strong> - (Summer 2016)<br></span>
+				<span id="secondaryTitle">Project Lead<br></span>
+				<div id="aboutMe">
+					<span id="basicTxt">This project was with the Carleton Summer Science Institute at Carleton College in Northfield, Minnesota. At this institute we learned about robotics, virtual reality, and geospatial analysis. The most difficult part of the project was the sheer amount of work we had to accomplish within our short time there but it was all worth it. My favorite part of the research project was the time exploring the Blanding’s turtle habitat and learning how urban development threatened them as well as the feeling that our research was used to help possibly save an endangered species.<br><br></span>
+					<span id="basicTxt"><strong>Technology used:</strong></span><br><br>
+					<div id="optionsDIV">
+						<div class="wrapper">
+							<div class="box">ArcMap</div>
+							<div class="box">Python</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="aboutMeContainer">
+				<span id="secondaryTitle"><strong>Pulse Website</strong> - (Spring 2017)<br></span>
+				<span id="secondaryTitle">Project Lead<br></span>
+				<div id="aboutMe">
+					<span id="basicTxt">Our team had the idea to put the game of Truth or Dare online with users paying others to complete the dares. What I loved about this project was that it was a culmination of all my high school computer science courses, everything from graphic design to database management. What I am most proud of is the fact that we were able to accomplish almost all our goals: Login system, ability to submit dares, and view videos. The only thing we could not accomplish was the monetary aspect of the website. The most difficult part of the project was that since I was a project lead, I had to delegate tasks to the individuals, some of which did not want to participate. However, once I explained that since it was a group project and if one person did not pull their weight would affect us all, the peer would usually participate again. <br><br></span>
+					<span id="basicTxt"><strong>Technology used:</strong></span><br><br>
+					<div id="optionsDIV">
+						<div class="wrapper">
+							<div class="box">HTML</div>
+							<div class="box">CSS</div>
+							<div class="box">mySQL</div>
+							<div class="box">PHP</div>
+							<div class="box">Dreamweaver</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div id="footer">Copyright 2018 - <a id="footerLink"href="https://jack23curtin.github.io/siteinfo.html">Site Info</div>
+</body>
+</html>

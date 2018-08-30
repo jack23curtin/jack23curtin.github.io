@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jack Website</title>
+<link href="jack.css" rel="stylesheet" type="text/css" media="screen">
+<style type="text/css">
+body {
+	background-image: url(jack23curtin.github.io/images/mountainBackground.jpg);
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: 50% 50%; 
+	background-size:cover;
+}
+#selectIcon{
+	display: none;
+}
+    </style>
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+	jQuery('body').css('display','none');
+	jQuery(document).ready(function() {
+		jQuery('body').fadeIn(1000);
+		jQuery('a').on('click',function(event){
+			var thetarget = this.getAttribute('target')
+			if (thetarget != "_blank"){			
+				var thehref = this.getAttribute('href')
+				event.preventDefault();
+				jQuery('body').fadeOut(function(){
+					//alert(thehref)
+					window.location = thehref					
+				});
+			}
+		});
+	});
+	setTimeout(function(){
+		jQuery('body').fadeIn();
+	},1000)
+</script>
+	<div id="topDiv">
+		<a href="https://jack23curtin.github.io/contact.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/004-multimedia.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Contact</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/hobbies.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/003-shapes.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Hobbies</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/projects.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/001-technology.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Projects</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/index.html"><div id="icon1"><img src="jack23curtin.github.io/images/icons/005-home.jpg" style="width:100px;height:100px;float:left;">
+			<div id="icon1words">Home</div>
+		</div></a>
+	</div>
+	<div id="whiteBackDIV">
+		<div id="contentDIV">
+			<div id="mainTitle">Overview<br></div>
+			<div id="aboutMeContainer">
+				<div id="aboutMe">
+				<span id="basicTxt">
+					Hello!<br><br>
+					My name is Jack Curtin and this is my personal, professional, website. I am a web developer, programmer, and marketing specialist. A “jack of all trades” if you will. I’ve had experience from building websites for small college clubs to working on Deep Learning projects for multi-billion dollar companies such as NVIDIA. Regardless of where I’ve worked, my personal goals have always held true: to learn as much as I can, and to assist in the creation of society benefiting, beautiful,  technologies.<br><br>
+					I look forward to working with you in the future.<br><br>
+					- Jack</span>
+				</div>
+			</div>
+			<div id="optionsDIV">
+				<div class="wrapper">
+					<a href="https://jack23curtin.github.io/JackCurtinResume.pdf"><div class="box">Download Resume</div></a>
+					<a href="https://www.linkedin.com/in/jack-curtin-668131140/"><div class="box">LinkedIn</div></a>
+					<a href="https://github.com/jack23curtin"><div class="box">GitHub</div></a>
+				</div>
+			</div>
+			<div id="mainTitle">Work Experience<br></div>
+			<div class="workContainer">
+				<div class="imageContainer"></div>
+				<span id="secondaryTitle"><strong>NVIDIA</strong> - (May 2018 - Present)<br></span>
+				<span id="secondaryTitle">Technical Marketing Intern</span><br>
+				<span id="basicTxt">
+					<ul>
+					  <li>Attended and helped host programs such as GPU Genius Academy and NVIDIA Partner Network Program</li>
+					  <li>Completed curriculum in the Deep Learning Institute,  Deep Learning Sales, HPC Product, and Deep Learning Technical Curriculum </li>
+					  <li>Assisted in the setup and resurrection of DGX Products as well as developed my own Neural Networks on said products</li>
+					  <li>Created a working database management system to be used in the organization of company documents</li>
+					</ul>
+				</span>
+			</div>
+			<div class="workContainer">
+				<div class="imageContainer"></div>
+				<span id="secondaryTitle"><strong>GOOGLE</strong> - (Oct 2017 - May 2018)<br></span>
+				<span id="secondaryTitle">GCP Student Innovator</span><br>
+				<span id="basicTxt">
+					<ul>
+					  <li>Worked closely with local Google Cloud Platform teams to test products and provide feedback </li>
+					  <li>Promoted competitions, training opportunities, scholarships and other events on campus (IEEE Club, HackBU)</li>
+					  <li>Organized, attended, and sponsored events at the Binghamton Campus (HackBU Hackathon)</li>
+					</ul>
+				</span>			
+			</div>
+			<div class="workContainer">
+				<div class="imageContainer"></div>
+				<span id="secondaryTitle"><strong>Global Health Impact</strong> - (Jan 2018 - May 2018)<br></span>
+				<span id="secondaryTitle">Web Developer</span><br>
+				<span id="basicTxt">
+					<ul>
+					  <li>Launched a new, responsive GHI website using HTML, CSS, and Flask that taught about the positive effects of different drug companies</li>
+					  <li>Collaborated with students each week to discuss, and produce a task of the week then accomplished said tasks</li>
+					</ul>
+				</span>			
+			</div>
+			<div class="workContainer">
+				<div class="imageContainer"></div>
+				<span id="secondaryTitle"><strong>AVID</strong> - (Apr 2017 - Aug 2017)<br></span>
+				<span id="secondaryTitle">Multimedia Design Intern</span><br>
+				<span id="basicTxt">
+					<ul>
+					  <li>Developed and tested software and hardware to be used by AVID company during Summer Training Institutes</li>
+					  <li>Designed and created promotional videos for Summer Institute speakers with Adobe Premiere</li>
+					  <li>Worked in a team to create digital signage panels to be placed throughout the San Diego Headquarters </li>
+					</ul>
+				</span>			
+			</div>
+			<div id="mainTitle">Programming Languages<br></div>
+				<div class="wrapper">
+					<div class="box">Javascript</div>
+					<div class="box">Python</div>
+					<div class="box">PHP</div>
+					<div class="box">C</div>
+					<div class="box">HTML</div>
+					<div class="box">CSS</div>
+				</div>
+			<div id="mainTitle">Technologies<br></div>
+			<div class="wrapper">
+  				<div class="box">Dreamweaver</div>
+  				<div class="box">Unity</div>
+  				<div class="box">Atom</div>
+  				<div class="box">Sketch-Up</div>
+  				<div class="box">Premier</div>
+  				<div class="box">Illustrator</div>
+				<div class="box">GitHub</div>
+				<div class="box">MySQL</div>
+				<div class="box">phpMyAdmin</div>
+				<div class="box">Anaconda</div>
+				<div class="box">Google Suite</div>
+				<div class="box">Microsoft Suite</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">Copyright 2018 - <a id="footerLink"href="https://jack23curtin.github.io/siteinfo.html">Site Info</div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jack Website</title>
+<link href="jack.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style type="text/css">
+body {
+	background-image: url(jack23curtin.github.io/images/mountainBackground.jpg);
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: 50% 50%; 
+	background-size:cover;
+}
+#selectIcon{
+	display: none;
+}
+    </style>
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+	jQuery('body').css('display','none');
+	jQuery(document).ready(function() {
+		jQuery('body').fadeIn(1000);
+		jQuery('a').on('click',function(event){
+			var thetarget = this.getAttribute('target')
+			if (thetarget != "_blank"){			
+				var thehref = this.getAttribute('href')
+				event.preventDefault();
+				jQuery('body').fadeOut(function(){
+					//alert(thehref)
+					window.location = thehref					
+				});
+			}
+		});
+	});
+	setTimeout(function(){
+		jQuery('body').fadeIn();
+	},1000)
+</script>
+<script>
+var slideIndex1 = 1;
+var slideIndex2 = 1;
+var slideIndex3 = 1;
+showDivs(slideIndex1);
+showDivs(slideIndex2);
+showDivs(slideIndex3);
+
+function plusDivs1(n) {
+  showDivs1(slideIndex1 += n);
+}
+function plusDivs2(n) {
+  showDivs2(slideIndex2 += n);
+}
+function plusDivs3(n) {
+  showDivs3(slideIndex3 += n);
+}
+
+function showDivs1(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  if (n > x.length) 
+  	{slideIndex1 = 1}    
+  if (n < 1) 
+  	{slideIndex1 = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex1-1].style.display = "block";  
+}
+function showDivs2(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  if (n > x.length) 
+  	{slideIndex2 = 1}    
+  if (n < 1) 
+  	{slideIndex2 = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex2-1].style.display = "block";  
+}
+function showDivs3(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides3");
+  if (n > x.length) 
+  	{slideIndex3 = 1}    
+  if (n < 1) 
+  	{slideIndex3 = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex3-1].style.display = "block";  
+}
+</script>
+	<div id="topDiv">
+		<a href="https://jack23curtin.github.io/contact.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/004-multimedia.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Contact</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/projects.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/001-technology.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Projects</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/experience.html"><div id="icon2"><img src="jack23curtin.github.io/images/icons/002-profile.jpg" style="width:100px;height:100px;float:right;">
+			<div id="icon2words">Resume</div>
+		</div></a>
+		<a href="https://jack23curtin.github.io/index.html"><div id="icon1"><img src="jack23curtin.github.io/images/icons/005-home.jpg" style="width:100px;height:100px;float:left;">
+			<div id="icon1words">Home</div>
+		</div></a>
+	</div>
+	<div id="whiteBackDIV">
+		<div id="contentDIV">
+			<div id="mainTitle">Hobbies<br></div>
+			<div id="aboutMeContainer">
+				<div id="hobbyImg">
+					<div class="w3-content w3-display-container">
+					  <img class="mySlides1" src="jack23curtin.github.io/images/hobbyImg/website1.png" style="width:100%; margin: 0 auto">
+					  <img class="mySlides1" src="jack23curtin.github.io/images/hobbyImg/website2.png" style="width:100%; display:none; margin: 0 auto">
+					  <img class="mySlides1" src="jack23curtin.github.io/images/hobbyImg/website3.png" style="width:100%; display:none; margin: 0 auto">
+
+					  <button class="w3-button w3-orange w3-display-left" onclick="plusDivs1(-1)">&#10094;</button>
+					  <button class="w3-button w3-orange w3-display-right" onclick="plusDivs1(1)">&#10095;</button>
+					</div>
+				</div>
+				<span id="secondaryTitle"><strong>Website Design</strong><br></span>
+				<div id="aboutMe">
+					<span id="basicTxt">Yes! Other than a few plugins, the website you are currently looking at is something I built on my own. It was a personal project of mine to further build my web development skills. Why didn’t I just use a custom website builder like Wix you ask? Because I wouldn’t learn anything and it would stunt my creativity! I started web development in high school and am mostly self taught, and if you scroll through the pictures, you can see some other websites I’ve had a hand in.<br><br></span>
+				</div>
+			</div>
+			<div id="aboutMeContainer">
+				<div id="hobbyImg">
+					<div class="w3-content w3-display-container">
+					  <img class="mySlides2" src="jack23curtin.github.io/images/hobbyImg/surf1.jpg" style="width:100%; margin: 0 auto">
+					  <img class="mySlides2" src="jack23curtin.github.io/images/hobbyImg/surf2.jpg" style="width:100%; display:none; margin: 0 auto">
+					  <img class="mySlides2" src="jack23curtin.github.io/images/hobbyImg/surf3.jpg" style="width:100%; display:none; margin: 0 auto">
+					  <img class="mySlides2" src="jack23curtin.github.io/images/hobbyImg/surf4.jpg" style="width:100%; display:none; margin: 0 auto;">
+
+					  <button class="w3-button w3-orange w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+					  <button class="w3-button w3-orange w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
+					</div>
+				</div>
+				<span id="secondaryTitle"><strong>Surfing</strong><br></span>
+				<div id="aboutMe">
+					<span id="basicTxt">I was about 8 when I first started to learn how to surf. My first board was a 6’ Softtop with blue stars all over it. When I first started learning, I’ll admit it wasn’t my favorite thing to do. Now I can’t get out enough. I try to go at least once a week on the weekends. My favorite places to surf are Pleasure Point, Tourmaline, and Rincon.<br><br></span>
+				</div>
+			</div>
+			<div id="aboutMeContainer">
+				<div id="hobbyImg">
+					<div class="w3-content w3-display-container">
+					  <img class="mySlides3" src="004-multimedia.jpg" style="width:100%; margin: 0 auto">
+					  <img class="mySlides3" src="002-profile.jpg" style="width:100%; display:none; margin: 0 auto">
+					  <img class="mySlides3" src="001-technology.jpg" style="width:100%; display:none; margin: 0 auto">
+					  <img class="mySlides3" src="005-home.jpg" style="width:100%; display:none; margin: 0 auto">
+
+					  <button class="w3-button w3-orange w3-display-left" onclick="plusDivs3(-1)">&#10094;</button>
+					  <button class="w3-button w3-orange w3-display-right" onclick="plusDivs3(1)">&#10095;</button>
+					</div>
+				</div>
+				<span id="secondaryTitle"><strong>Water Polo</strong><br></span>
+				<div id="aboutMe">
+					<span id="basicTxt">Euismod rationibus cotidieque eos id, te meis vituperata pri. Quo ut brute libris probatus, ea sint patrioque percipitur pri, fugit veritus sea ut. In has esse magna tamquam, choro corrumpit ei has. Soleat nominati intellegat sea id, his posse platonem incorrupte ut. Probo viderer minimum ius in. Ea nec discere appareat scripserit.  In lorem vivendo cotidieque quo, eu has nulla mnesarchum, facete omnesque perpetua vis ne. Ad mei dicit dolorem. Eu regione bonorum duo. Ea putant oporteat mei.<br><br></span>
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div id="footer">Copyright 2018 - <a id="footerLink"href="https://jack23curtin.github.io/siteinfo.html">Site Info</div>
+</body>
+</html>
