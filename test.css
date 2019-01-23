@@ -117,3 +117,26 @@ i {
 .close:after {
   transform: rotate(-45deg);
 }
+.wrapper {
+	display: grid;
+    	grid-gap: 40px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+	background-color: #fff;
+	color: #444;
+	text
+}
+
+.box {
+	background-color: darkgray;
+	color: #fff;
+	padding: 20px;
+	font-size: 150%;
+	font-family: monospace;
+	text-align: center;
+	margin: auto;
+    	min-width: 190px;
+
+}
+.box:hover{
+	background-color: lightgray;
+}
