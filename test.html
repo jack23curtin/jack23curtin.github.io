@@ -6,9 +6,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script> 
 $(document).ready(function(){
-  $("#flip").click(function(){
+  $("#flip").click(function()
+  {
     $("#panel").slideToggle("slow");
-  });
+  }
+  );
+});
+$(document).ready(function(){
+  $("#flip2").click(function()
+  {
+    $("#panel").slideToggle("slow");
+  }
+  );
 });
 </script>
 </head>
@@ -20,7 +29,7 @@ $(document).ready(function(){
   <a href="#news">Deals</a>
   </div> 
 </div>
-<div id="panel"><a href="#" class="close" id="flip"></a>Hello world!</div>
+<div id="panel"><a href="#" class="close" id="flip2"></a>Hello world!</div>
 this is text below every thing else and I wonder what will happen to it
 
 </body>
