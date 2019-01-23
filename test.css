@@ -62,8 +62,11 @@
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+.dropdown-content a:focus {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.dropdown:focus .dropdown-content {
   display: block;
 }
