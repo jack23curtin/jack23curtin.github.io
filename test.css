@@ -79,3 +79,8 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
