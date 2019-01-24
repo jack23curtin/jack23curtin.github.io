@@ -1,21 +1,4 @@
-#flip {
-  float: left;
-  width: 160px;
-  padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
-}
-#panel {
-  padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
-  padding: 50px;
-  display: none;
-  width: 80%;
-  margin: auto;
-}
+
 
 
 body {
@@ -92,51 +75,4 @@ i {
   display: inline-block;
   padding: 3px;
 }
-.close {
-  position: absolute;
-  right: 80px;
-  top: 70px;
-  width: 32px;
-  height: 32px;
-  opacity: 0.3;
-}
-.close:hover {
-  opacity: 1;
-}
-.close:before, .close:after {
-  position: absolute;
-  left: 15px;
-  content: ' ';
-  height: 33px;
-  width: 2px;
-  background-color: #333;
-}
-.close:before {
-  transform: rotate(45deg);
-}
-.close:after {
-  transform: rotate(-45deg);
-}
-.wrapper {
-	display: grid;
-    	grid-gap: 40px;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
-	background-color: #fff;
-	color: #444;
-	text
-}
 
-.box {
-	background-color: darkgray;
-	color: #fff;
-	padding: 20px;
-	font-size: 150%;
-	font-family: monospace;
-	text-align: center;
-	margin: auto;
-    	min-width: 190px;
-
-}
-.box:hover{
-	background-color: lightgray;
-}
