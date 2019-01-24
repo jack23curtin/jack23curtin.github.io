@@ -92,4 +92,70 @@ i {
   display: inline-block;
   padding: 3px;
 }
+.flipImgWrap {
+  background-color: darkgray;
+	color: #fff;
+	padding: 20px;
+	font-size: 150%;
+	font-family: monospace;
+	text-align: center;
+    margin: auto;
+    width: 190px;
+}
+.flipImgWrap:hover{
+	background-color: lightgray;
+}
+
+.panelInfo {
+  background: green;
+  height: 100px;
+  width: fill;
+  display:inline-block;
+  margin: 10px;
+  display: none;
+}
+.wrapper {
+	display: grid;
+    grid-gap: 40px;
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr) ) ;
+	background-color: red;
+    
+	
+}
+#backspace{
+  background: purple;
+  height: 30px;
+  width: 5%;
+  display:inline-block;
+  margin: 10px;
+  float: left;
+}
+#back{
+	display: none;
+    background-color: green;
+}
+.tileContainer{
+  width: 80%;
+  background: #eee;
+  margin: 0px 10px;
+  position: relative;
+  text-align:center;
+  float: left;
+  padding: 1px;
+
+}
+.totaldrop{
+  background-color: black;
+  width: 100%;
+  height:100%;
+
+}
+#close{
+  background: green;
+  height: 30px;
+  width: 5%;
+  display:inline-block;
+  margin: 10px;
+  float: left;
+}
 
