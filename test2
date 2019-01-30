@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="test.css" rel="stylesheet" type="text/css" media="screen">
+<script></script>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">LOGO</a>
+  <div id="flip">Categories <i class="arrow down"></i></div>
+  <a href="#news">Deals</a>
+  </div> 
+</div>
+    <div class="wrapper">
+      <div class="flipImgWrap" id="panel1">Panel 1</div>
+      <div class="flipImgWrap" id="panel2">Panel 2</div>
+      <div class="flipImgWrap" id="panel3">Panel 3</div>
+      <div class="flipImgWrap" id="panel4">Panel 4</div>
+      <div class="flipImgWrap" id="panel5">Panel 5</div>
+      <div class="flipImgWrap" id="panel6">Panel 6</div>
+      <div class="flipImgWrap" id="panel7">Panel 7</div>
+      <div class="flipImgWrap" id="panel8">Panel 8</div>
+      <div class="flipImgWrap" id="panel9">Panel 9</div>
+</div>
+</div>
+this is text below every thing else and I wonder what will happen to it
+
+</body>
+</html>
