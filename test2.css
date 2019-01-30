@@ -101,7 +101,7 @@ i {
 	font-family: monospace;
 	text-align: center;
     margin: auto;
-    height: 200px
+    height: 200px;
     width: 300px;
 }
 .flipImgWrap:hover{
