@@ -4,6 +4,7 @@ html, body {
 	margin: 0;
 }
 
+
 #flip {
   float: left;
   width: 160px;
@@ -109,6 +110,9 @@ i {
     margin: auto;
     height: 150px;
     width: 250px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .flipImgWrap:hover{
 	background-color: lightgray;
