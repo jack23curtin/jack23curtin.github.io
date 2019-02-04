@@ -107,8 +107,8 @@ i {
 	font-family: monospace;
 	text-align: center;
     margin: auto;
-    height: 200px;
-    width: 350px;
+    height: 150px;
+    width: 250px;
 }
 .flipImgWrap:hover{
 	background-color: lightgray;
@@ -125,7 +125,7 @@ i {
 .wrapper {
 	display: grid;
     	grid-gap: 40px;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) ) ;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
 	background-color: red;
 	padding-top: 30px;
     
