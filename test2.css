@@ -101,21 +101,19 @@ i {
   padding: 3px;
 }
 .flipImgWrap {
-  background-color: darkgray;
 	color: #fff;
-	padding: 20px;
 	font-size: 150%;
 	font-family: monospace;
 	text-align: center;
     margin: auto;
-    height: 150px;
-    width: 250px;
+    height: 200px;
+    width: 300px;
     justify-content: center;
     display: flex;
     align-items: center;
 }
 .flipImgWrap:hover{
-	background-color: lightgray;
+	background-color: darkgray;
 }
 
 .panelInfo {
