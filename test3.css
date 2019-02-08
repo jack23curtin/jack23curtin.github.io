@@ -98,14 +98,16 @@ i {
   padding: 3px;
 }
 .flipImgWrap {
-  background-color: darkgray;
-	color: #fff;
-	padding: 20px;
+  color: #fff;
 	font-size: 150%;
 	font-family: monospace;
 	text-align: center;
     margin: auto;
-    width: 190px;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .flipImgWrap:hover{
 	background-color: lightgray;
