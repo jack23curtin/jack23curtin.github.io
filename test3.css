@@ -141,7 +141,7 @@ i {
     background-color: green;
 }
 .tileContainer{
-  width: 80%;
+  width: 100%;
   background: #eee;
   margin: 0px 10px;
   position: relative;
