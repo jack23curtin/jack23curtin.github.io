@@ -108,14 +108,14 @@ i {
     align-items: center;
 }
 .flipImgWrap:hover{
-    background-color: lightgray;
+    background-color: black;
     opacity: 0.5;
 }
 .imgContain:hover #tileTitle{
     display: none;
 }
 .imgContain:hover #tileInfo{
-    display: show;
+    display: block;
 }
 #titleTitle{
     font-size: 75px;
