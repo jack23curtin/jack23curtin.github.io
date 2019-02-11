@@ -110,10 +110,10 @@ i {
 .flipImgWrap:hover{
     background-color: lightgray;
 }
-.flipImgWrap:hover .tileTitle{
+.imgContain:hover .tileTitle{
     display: none;
 }
-.flipImgWrap:hover .tileInfo{
+.imgContain:hover .tileInfo{
     display: show;
 }
 .titleTitle{
