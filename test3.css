@@ -112,7 +112,7 @@ i {
 }
 .flipImgWrap:hover{
     background: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.65), 0 6px 50px 0 rgba(0, 0, 0, 0.30);
+    //box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.65), 0 6px 50px 0 rgba(0, 0, 0, 0.30);
 }
 .imgContain:hover #tileTitle{
     display: none;
