@@ -113,13 +113,13 @@ i {
 .flipImgWrap:hover{
     background-color: lightgray;
 }
-.imgContain:hover .tileTitle{
+.imgContain:hover #tileTitle{
     display: none;
 }
-.imgContain:hover .tileInfo{
+.imgContain:hover #tileInfo{
     display: show;
 }
-.titleTitle{
+#titleTitle{
     font-size: 45px;
 }
 
