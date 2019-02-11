@@ -111,8 +111,7 @@ i {
     display: none;
 }
 .flipImgWrap:hover{
-    background-color: black;
-    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.5); 
 }
 .imgContain:hover #tileTitle{
     display: none;
