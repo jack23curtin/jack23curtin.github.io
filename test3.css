@@ -109,6 +109,7 @@ i {
 }
 .flipImgWrap:hover{
     background-color: lightgray;
+    opacity: .5;
 }
 .imgContain:hover #tileTitle{
     display: none;
