@@ -119,6 +119,7 @@ i {
 }
 .imgContain:hover #tileInfo{
     display: block;
+    opacity: 1;
 }
 #titleTitle{
     font-size: 75px;
