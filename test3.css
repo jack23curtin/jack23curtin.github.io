@@ -108,7 +108,16 @@ i {
     align-items: center;
 }
 .flipImgWrap:hover{
-	background-color: lightgray;
+    background-color: lightgray;
+}
+.flipImgWrap:hover .tileTitle{
+    display: none;
+}
+.flipImgWrap:hover .tileInfo{
+    display: show;
+}
+.titleTitle{
+    font-size: 45px;
 }
 
 .panelInfo {
@@ -120,10 +129,10 @@ i {
   display: none;
 }
 .wrapper {
-	display: grid;
+    display: grid;
     grid-gap: 40px;
-	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr) ) ;
-	background-color: red;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr) ) ;
+    background-color: red;
     
 	
 }
