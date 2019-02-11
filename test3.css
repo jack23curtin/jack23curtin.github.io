@@ -107,9 +107,6 @@ i {
     display: flex;
     align-items: center;
 }
-.tileInfo{
-    display: none;
-}
 .flipImgWrap:hover{
     background-color: lightgray;
 }
@@ -120,7 +117,7 @@ i {
     display: show;
 }
 #titleTitle{
-    font-size: 45px;
+    font-size: 75px;
 }
 
 
