@@ -133,6 +133,8 @@ i {
   display:inline-block;
   margin: 10px;
   display: none;
+  text-align: left;
+  padding: 30px;
 }
 .wrapper {
     display: grid;
