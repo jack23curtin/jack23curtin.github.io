@@ -128,7 +128,6 @@ i {
 
 .panelInfo {
   background: green;
-  height: 100px;
   width: fill;
   display:inline-block;
   margin: 10px;
