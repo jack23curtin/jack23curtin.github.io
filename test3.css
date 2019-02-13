@@ -97,8 +97,7 @@ i {
 }
 .flipImgWrap {
   color: #fff;
-	font-size: 150%;
-	font-family: monospace;
+	font-family: "Times New Roman", Times, serif;
 	text-align: center;
     margin: auto;
     height: 200px;
