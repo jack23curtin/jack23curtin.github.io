@@ -90,11 +90,22 @@ $(document).ready(function(){
 </head>
 <body>
 
-<div class="navbar">
-  <a href="#home">LOGO</a>
-  <div>Categories <i class="arrow down"></i></div>
-  <a href="#news">Deals</a>
-  </div> 
+<div class="logo">
+	<a>logo</a>
+</div>
+<div class="topnav">
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  <div class="menuDiv">
+    <a class="active" href="#home">Deals</a>
+
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
 </div>
 <div id="panel">
   <div class="totaldrop">
