@@ -124,6 +124,7 @@ body {
 
 
 .flipImgWrap {
+	color: white;
 	font-family: "Times New Roman", Times, serif;
 	text-align: center;
     margin: auto;
@@ -183,7 +184,6 @@ body {
 }
 .tileContainer{
   width: 95%;
-  background: #eee;
   margin: 0px 10px;
   position: relative;
   text-align:center;
