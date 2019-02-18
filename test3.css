@@ -107,13 +107,11 @@ body {
   width: 160px;
   padding: 5px;
   text-align: center;
-  background-color: #e5eecc;
   border: solid 1px #c3c3c3;
 }
 #panel {
   padding: 5px;
   text-align: center;
-  background-color: #e5eecc;
   border: solid 1px #c3c3c3;
   margin: auto;
   overflow: hidden;
@@ -126,7 +124,6 @@ body {
 
 
 .flipImgWrap {
-  color: #fff;
 	font-family: "Times New Roman", Times, serif;
 	text-align: center;
     margin: auto;
@@ -169,7 +166,6 @@ body {
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
-    background-color: red;
     
 	
 }
