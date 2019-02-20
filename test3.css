@@ -155,7 +155,6 @@ body {
 
 
 .panelInfo {
-  background: green;
   width: fill;
   display:inline-block;
   margin: 10px;
@@ -178,7 +177,6 @@ body {
 }
 #back{
 	display: none;
-    background-color: green;
 }
 .tileContainer{
   width: 95%;
@@ -196,7 +194,6 @@ body {
 
 }
 #close{
-  background: green;
   height: 30px;
   width: 5%;
   display:inline-block;
