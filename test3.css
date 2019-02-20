@@ -172,8 +172,6 @@ body {
 }
 #backspace{
   background: purple;
-  height: 30px;
-  width: 5%;
   display:inline-block;
   margin: 10px;
   float: left;
