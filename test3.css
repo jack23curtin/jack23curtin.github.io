@@ -161,6 +161,7 @@ body {
   display: none;
   text-align: left;
   padding: 30px;
+  background-color: lightgray; 
 }
 .wrapper {
     display: grid;
@@ -170,7 +171,6 @@ body {
 	
 }
 #backspace{
-  background: purple;
   display:inline-block;
   margin: 10px;
   float: left;
