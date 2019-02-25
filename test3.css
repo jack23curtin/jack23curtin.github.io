@@ -91,6 +91,9 @@ body {
 	margin-top: 5px;
 
 }
+.menuHov:hover{
+	background-color: darkgray;
+}
 .logo{
 	width: 10%;
     height: 80px;
