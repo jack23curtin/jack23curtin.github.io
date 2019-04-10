@@ -1,0 +1,209 @@
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  width:80%;
+  padding-left: 10px;
+
+}
+
+.topnav a {
+  float: left;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: black;
+  //width: 100%;
+}
+
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: left;
+  background-color: black;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  background: #ddd;
+  font-size: 17px;
+
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.menuDiv{
+	width:100%;
+    height: 50px;
+    background-color: black;
+    display: inline-block;
+      float: left;
+  color: white;
+  text-align: center;
+	margin-bottom: 25px;
+
+}
+.menuHov:hover{
+	background-color: darkgray;
+}
+.logo{
+	width: 10%;
+    height: 80px;
+    background-color: orange;
+    display: inline-block;
+    float: left;
+}
+.user{
+	width: 5%;
+    height: 80px;
+    background-color: orange;
+    display: inline-block;
+    float: right;
+}
+#flip {
+  float: left;
+  width: 160px;
+  padding: 5px;
+  text-align: center;
+  border: solid 1px #c3c3c3;
+}
+#panel {
+  padding: 5px;
+  text-align: center;
+  border: solid 1px #c3c3c3;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.flipImgWrap {
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+    margin: auto;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#tileInfo{
+    display: none;
+}
+.flipImgWrap:hover{
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.65), 0 6px 50px 0 rgba(0, 0, 0, 0.30);
+}
+.imgContain:hover #tileTitle{
+    display: none;
+}
+.imgContain:hover #tileInfo{
+    display: block;
+    opacity: 1;
+}
+#titleTitle{
+    font-size: 75px;
+}
+
+
+
+.panelInfo {
+  width: fill;
+  display:inline-block;
+  margin: 10px;
+  display: none;
+  text-align: left;
+  padding: 30px;
+  background-color: lightgray; 
+}
+.wrapper {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
+    
+	
+}
+#backspace{
+  display:inline-block;
+  margin: 10px;
+  float: left;
+}
+#back{
+	display: none;
+}
+.tileContainer{
+  width: 95%;
+  margin: 0px 10px;
+  position: relative;
+  text-align:center;
+  float: left;
+  padding: 1px;
+
+}
+.totaldrop{
+  background-color: black;
+  width: 100%;
+  height:100%;
+  margin-top: 20px;
+
+
+}
+#close{
+  height: 30px;
+  width: 5%;
+  display:inline-block;
+  margin: 10px;
+  float: left;
+}
