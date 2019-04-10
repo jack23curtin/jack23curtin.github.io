@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="test3.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#close").click(function()
+  {
+    $("#panel").slideToggle("slow");
+  }
+  );
+});
+	
+	
+$(document).ready(function(){
+  $("#panel1").click(function(){
+  $(".flipImgWrap").fadeToggle(400);
+  $("#panelDiv1").delay( 400 ).fadeToggle("slow");
+  $("#back").delay( 400 ).fadeToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#panel2").click(function(){
+  $(".flipImgWrap").fadeToggle(400);
+    $("#panelDiv2").delay( 400 ).fadeToggle("slow");
+      $("#back").delay( 400 ).fadeToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#panel3").click(function(){
+  $(".flipImgWrap").fadeToggle(400);
+    $("#panelDiv3").delay( 400 ).fadeToggle("slow");
+      $("#back").delay( 400 ).fadeToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#panel4").click(function(){
+  $(".flipImgWrap").fadeToggle(400);
+    $("#panelDiv4").delay( 400 ).fadeToggle("slow");
+      $("#back").delay( 400 ).fadeToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#panel5").click(function(){
+  $(".flipImgWrap").fadeToggle(400);
+    $("#panelDiv5").delay( 400 ).fadeToggle("slow");
+      $("#back").delay( 400 ).fadeToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#panel6").click(function(){
+  $(".flipImgWrap").fadeToggle(400);
+    $("#panelDiv6").delay( 400 ).fadeToggle("slow");
+      $("#back").delay( 400 ).fadeToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#panel7").click(function(){
+  $(".flipImgWrap").fadeToggle(400);
+    $("#panelDiv7").delay( 400 ).fadeToggle("slow");
+      $("#back").delay( 400 ).fadeToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#panel8").click(function(){
+  $(".flipImgWrap").fadeToggle(400);
+    $("#panelDiv8").delay( 400 ).fadeToggle("slow");
+      $("#back").delay( 400 ).fadeToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#panel9").click(function(){
+  $(".flipImgWrap").fadeToggle(400);
+    $("#panelDiv9").delay( 400 ).fadeToggle("slow");
+      $("#back").delay( 400 ).fadeToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#back").click(function(){
+  $(".panelInfo").fadeOut(400);
+  $("#back").fadeOut(400);
+  $(".flipImgWrap").delay( 400 ).fadeToggle(400);
+    
+    
+  });
+});
+</script>
+</head>
+<body>
+
+	
+<div class="user">
+	<a>user</a>
+</div>
+<div class="user">
+	<a>cart</a>
+</div>
+<div class="logo">
+	<a>logo</a>
+</div>
+<div class="topnav">
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  <div class="menuDiv">
+    <hr style="border-color: gray;border-width:2px;">
+    <a class="menuHov" href="#home">Deals</a>
+    <a class="menuHov" href="#about">About</a>
+    <a class="menuHov" href="#contact">Contact</a>
+  </div>
+</div>
+<div id="panel">
+  <div class="totaldrop">
+	<div id="backspace">
+		<div id="back" style = "cursor:pointer" >&#8592; BACK</div>
+    </div>
+  <div class="tileContainer">
+
+    <div class="wrapper">
+      <div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/meatTest.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap" id="panel2"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">Meat</span><span id="tileInfo" style="font-size: 30px;">Nuff said.</span></div>
+      </div>
+<a href="https://jack23curtin.github.io/knives.html">
+      <div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/knifeTest.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">Knives’n Shit.</span><span id="tileInfo" style="font-size: 30px;">Be a man, buy a nice knife.</span></div>
+      </div>
+</a>
+      <div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/barglasses.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap" id="panel3"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">Bar Glasses.</span><span id="tileInfo" style="font-size: 30px;">You either have real glasses or drink out of a sippy cup. There is no in-between.</span></div>
+      </div>
+      <div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/bar.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap" id="panel4"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">Whiskey.</span><span id="tileInfo" style="font-size: 30px;">Yes, a whole fucking page for whiskey.</span></div>
+      </div>
+      <div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/hunt.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap" id="panel5"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">Hunting Shit.</span><span id="tileInfo" style="font-size: 30px;">Make it a clean kill.</span></div>
+      </div>
+      <div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/tux.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap" id="panel6"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">Tuxedo.</span><span id="tileInfo" style="font-size: 30px;">You need at least one.</span></div>
+      </div>
+      <div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/kayak.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap" id="panel7"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">Purely Fun</span><span id="tileInfo" style="font-size: 30px;">Don’t die.</span></div>
+      </div>
+      <div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/reel.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap" id="panel8"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">Reels and Rods.</span><span id="tileInfo" style="font-size: 30px;">Never be the last one to catch a fish again.</span></div>
+      </div>
+      <div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/tshirt.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap" id="panel9"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">Merch.</span><span id="tileInfo" style="font-size: 30px;">American made, American quality.</span></div>
+      </div>
+  	<div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/smoker.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap" id="panel9"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">Grills and Smokers.</span><span id="tileInfo" style="font-size: 30px;">Fuck stoves.</span></div>
+      </div>
+	<div class="imgContain" style="background-color: #4d4d4d;">
+          <div class="flipImgWrap" id="panel9"><span id="tileTitle" style="font-size: 60px;">All of our Shit.</span><span id="tileInfo" style="font-size: 30px;">If it isn't here, it's not manly enough.</span></div>
+      </div>
+	<div class="imgContain" style="background: url(https://jack23curtin.github.io/imageTest/pool.png) no-repeat center; background-size: 300px 200px;">
+          <div class="flipImgWrap" id="panel8"><span id="tileTitle" style="font-size: 60px; background-color: rgba(0, 0, 0, 0.5);">The Man Cave.</span><span id="tileInfo" style="font-size: 30px;">Try and not spend money here.</span></div>
+      </div>
+
+    </div>
+
+      <div id="panelDiv1" class="panelInfo">
+	      <span style="font-size: 55px">MEAT.</span>
+	      <span style="font-size: 25px;">It's what's for dinner</span>
+	      <br>
+	      <br>
+	      <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><br>
+	      <span style="font-size: 18px;">illo inventore veritatis et quasi architecto</span><br>
+	      <span style="font-size: 18px;">Ut enim ad minima veniam, quis nostrum exercitationem</span><br>
+	      <span style="font-size: 18px;"> aut odit aut fugit, sed quia consequuntur </span><br>
+      </div>
+      <div id="panelDiv2" class="panelInfo">
+	      <span style="font-size: 55px">Knives’n Shit.</span>
+	      <span style="font-size: 25px;">knife text</span>
+	      <br>
+	      <br>
+	      <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><br>
+	      <span style="font-size: 18px;">illo inventore veritatis et quasi architecto</span><br>
+	      <span style="font-size: 18px;">Ut enim ad minima veniam, quis nostrum exercitationem</span><br>
+	      <span style="font-size: 18px;"> aut odit aut fugit, sed quia consequuntur </span><br>
+      </div>
+      <div id="panelDiv3" class="panelInfo">
+	      <span style="font-size: 55px">Bar shit.</span>
+	      <span style="font-size: 25px;">knife text</span>
+	      <br>
+	      <br>
+	      <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><br>
+	      <span style="font-size: 18px;">illo inventore veritatis et quasi architecto</span><br>
+	      <span style="font-size: 18px;">Ut enim ad minima veniam, quis nostrum exercitationem</span><br>
+	      <span style="font-size: 18px;"> aut odit aut fugit, sed quia consequuntur </span><br>
+      </div>
+      <div id="panelDiv4" class="panelInfo">
+	      <span style="font-size: 55px">Knives’n Shit.</span>
+	      <span style="font-size: 25px;">knife text</span>
+	      <br>
+	      <br>
+	      <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><br>
+	      <span style="font-size: 18px;">illo inventore veritatis et quasi architecto</span><br>
+	      <span style="font-size: 18px;">Ut enim ad minima veniam, quis nostrum exercitationem</span><br>
+	      <span style="font-size: 18px;"> aut odit aut fugit, sed quia consequuntur </span><br>
+      </div>
+      <div id="panelDiv5" class="panelInfo">
+	      <span style="font-size: 55px">Knives’n Shit.</span>
+	      <span style="font-size: 25px;">knife text</span>
+	      <br>
+	      <br>
+	      <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><br>
+	      <span style="font-size: 18px;">illo inventore veritatis et quasi architecto</span><br>
+	      <span style="font-size: 18px;">Ut enim ad minima veniam, quis nostrum exercitationem</span><br>
+	      <span style="font-size: 18px;"> aut odit aut fugit, sed quia consequuntur </span><br>
+      </div>
+      <div id="panelDiv6" class="panelInfo">
+	      <span style="font-size: 55px">Knives’n Shit.</span>
+	      <span style="font-size: 25px;">knife text</span>
+	      <br>
+	      <br>
+	      <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><br>
+	      <span style="font-size: 18px;">illo inventore veritatis et quasi architecto</span><br>
+	      <span style="font-size: 18px;">Ut enim ad minima veniam, quis nostrum exercitationem</span><br>
+	      <span style="font-size: 18px;"> aut odit aut fugit, sed quia consequuntur </span><br>
+      </div>
+      <div id="panelDiv7" class="panelInfo">
+	      <span style="font-size: 55px">Knives’n Shit.</span>
+	      <span style="font-size: 25px;">knife text</span>
+	      <br>
+	      <br>
+	      <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><br>
+	      <span style="font-size: 18px;">illo inventore veritatis et quasi architecto</span><br>
+	      <span style="font-size: 18px;">Ut enim ad minima veniam, quis nostrum exercitationem</span><br>
+	      <span style="font-size: 18px;"> aut odit aut fugit, sed quia consequuntur </span><br>
+      </div>
+      <div id="panelDiv8" class="panelInfo">
+	      <span style="font-size: 55px">Knives’n Shit.</span>
+	      <span style="font-size: 25px;">knife text</span>
+	      <br>
+	      <br>
+	      <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><br>
+	      <span style="font-size: 18px;">illo inventore veritatis et quasi architecto</span><br>
+	      <span style="font-size: 18px;">Ut enim ad minima veniam, quis nostrum exercitationem</span><br>
+	      <span style="font-size: 18px;"> aut odit aut fugit, sed quia consequuntur </span><br>
+      </div>
+      <div id="panelDiv9" class="panelInfo">
+	      <span style="font-size: 55px">Knives’n Shit.</span>
+	      <span style="font-size: 25px;">knife text</span>
+	      <br>
+	      <br>
+	      <span style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><br>
+	      <span style="font-size: 18px;">illo inventore veritatis et quasi architecto</span><br>
+	      <span style="font-size: 18px;">Ut enim ad minima veniam, quis nostrum exercitationem</span><br>
+	      <span style="font-size: 18px;"> aut odit aut fugit, sed quia consequuntur </span><br>
+      </div>
+
+      
+
+
+    
+  </div>
+</div>
+</div>
+this is text below every thing else and I wonder what will happen to it
+
+</body>
+</html>
