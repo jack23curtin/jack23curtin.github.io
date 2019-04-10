@@ -117,8 +117,7 @@ body {
 #panel {
   padding: 5px;
   text-align: center;
-  border: solid 1px #c3c3c3;
-  margin: auto;
+  margin: auto 150px;
   overflow: hidden;
 }
 
