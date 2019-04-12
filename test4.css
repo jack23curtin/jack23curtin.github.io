@@ -166,7 +166,7 @@ body {
 .productPageTitle{
     color: blue;
 }
-.productDot:hover .productPageTitle{
+.productDot:hover + .productPageTitle{
     color:red;
 
 }
