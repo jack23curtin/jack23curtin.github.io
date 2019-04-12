@@ -186,3 +186,39 @@ body {
 	margin-bottom: 15px;
 	color: grey;
 }
+#rcorners1 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 300px;
+  height: 350px; 
+  float:left;
+    background: lightgrey;
+    
+
+}
+#rcorners2 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 50px 0px 0px 0px; 
+  width: 250px;
+  height: 350px;  
+      display:inline-block;
+      text-align:center;
+      margin: 0 auto;
+
+}
+
+
+
+#rcorners3 {
+  border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 100px;
+  height: 100px; 
+      display:inline-block;
+
+}
