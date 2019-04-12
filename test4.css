@@ -192,3 +192,8 @@ body {
     grid-gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) );
 }
+.categoryTitle{
+	font-size: 20px;
+	margin-bottom: 15px;
+	color: grey;
+}
