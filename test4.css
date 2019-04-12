@@ -189,17 +189,31 @@ body {
 #itemWrapper {
 	padding: 40px;
 	text-align: center;
+    border: blue solid 1px;
+    display:inline-block;
 }
 
 #left, #right {
 	background: #ccc;
 	display: inline-block;    
 	padding: 20px;   
+    float:left;
 }
 #left{
-	height: 450px;
-	width: 250px;
+
+	height: 200px;
+	width: 150px;
 }
 #right{
-	width:250px;
+	width:100px;
+}
+#middle{
+	padding-top:30px;
+
+}
+#panelItem{
+	text-align: center;
+    border: green solid 1px;
+	display: table;
+  	margin: 0 auto;
 }
