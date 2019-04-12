@@ -154,7 +154,7 @@ body {
 .productPageTitle{
 	color: black;
 }
-.productDot:hover + .productPageTitle{
+.imgContain:hover .productPageTitle{
 	color:lightgrey;
 }
 .dot:hover #tileInfo{
