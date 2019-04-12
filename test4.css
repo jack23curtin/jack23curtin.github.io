@@ -159,10 +159,10 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr) );
 }
 .productPageTitle{
-    color: grey;
+    color: blue;
 }
 .productDot:hover .productPageTitle{
-    color:lightgrey;
+    color:red;
 
 }
 .dot:hover #tileInfo{
