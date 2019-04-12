@@ -146,6 +146,13 @@ body {
   display: inline-block;
   overflow:hidden;
 }
+.productDot{
+  height: 350px;
+  width: 350px;
+  background-color: #bbb;
+  display: inline-block;
+  overflow:hidden;
+}
 .wrapper {
     display: grid;
     grid-gap: 40px;
