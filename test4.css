@@ -158,6 +158,13 @@ body {
     grid-gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr) );
 }
+.productPageTitle{
+    color: grey;
+}
+.productDot:hover .productPageTitle{
+    color:lightgrey;
+
+}
 .dot:hover #tileInfo{
     display: block;
     opacity: 1;
