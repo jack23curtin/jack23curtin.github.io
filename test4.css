@@ -173,6 +173,7 @@ body {
 }
 #tileInfo{
 	display: none;
+	color: #4c4c4c;
 }
 .productWrapper {
 	display: grid;
