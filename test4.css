@@ -214,3 +214,11 @@ body {
 	display: table;
   	margin: 0 auto;
 }
+.firTitle{
+	color: darkgrey;
+	font-size: 25px;
+}
+.secTitle{
+	color: grey;
+	font-size: 15px;
+}
