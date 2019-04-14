@@ -193,12 +193,11 @@ body {
 }
 
 #left, #right {
-	background: #ccc;
 	display: inline-block;    
 	float:left;
 }
 #left{
-	
+	background: #ccc;
 	height: 500px;
 	width: 450px;
 }
