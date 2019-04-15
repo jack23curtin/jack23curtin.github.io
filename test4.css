@@ -339,4 +339,9 @@ img {
 	  margin: 4px 2px;
 	  cursor: pointer;
 }
+.button:hover{
+	background-color: white;
+	color: black;
+	border: black solid;
 
+}
