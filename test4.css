@@ -131,7 +131,7 @@ body {
 	float: left;
 }
 
-.dot {
+.dotCat {
 	height: 250px;
 	width: 250px;
 	background-color: #bbb;
@@ -157,7 +157,7 @@ body {
 .imgContain:hover .productPageTitle{
 	color:lightgrey;
 }
-.dot:hover #tileInfo{
+.dotCat:hover #tileInfo{
 	display: block;
 	opacity: 1;
 	background-color: rgba(255, 255, 255, 0.5);
