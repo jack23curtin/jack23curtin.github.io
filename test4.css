@@ -353,6 +353,8 @@ img {
   right: 0;
   width: 300px;
   height: 100px;
+}
+
   .search {
     position: absolute;
     margin: auto;
@@ -368,6 +370,7 @@ img {
     z-index: 4;
     // box-shadow: 0 0 25px 0 crimson;
     border: 1px solid black;
+}
     &:hover {
       cursor: pointer;
     }
@@ -399,7 +402,6 @@ img {
       border: 2px solid black;
       transition: all .5s;
     }
-  }
   input {
     font-family: 'Inconsolata', monospace;
     position: absolute;
@@ -424,7 +426,7 @@ img {
     z-index: 5;
     font-weight: bolder;
     letter-spacing: 0.1em;
-    &:hover {
+}&:hover {
       cursor: pointer;
     }
     &:focus {
@@ -437,7 +439,7 @@ img {
       background: #151515;
       z-index: 6;
       background: white;
-
+}
       &::before {
         top: 0;
         left: 0;
@@ -454,12 +456,8 @@ img {
         border-radius: 0%;
         transform: rotate(-45deg);
       }
-    }
     &::placeholder {
       color: white;
       opacity: 0.5;
       font-weight: bolder;
-
-    }
-  }
 }
