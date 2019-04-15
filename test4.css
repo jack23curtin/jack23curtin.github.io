@@ -197,7 +197,6 @@ body {
 	float:left;
 }
 #left{
-	background: #ccc;
 	height: 500px;
 	width: 450px;
 }
@@ -243,7 +242,7 @@ img {vertical-align: middle;}
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: darkgey;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
