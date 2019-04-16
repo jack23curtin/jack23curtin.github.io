@@ -56,6 +56,11 @@ body {
 	font-size: 17px;
 	border: none;
 }
+input[type=text]:focus {
+  width: 100%;
+  border-bottom: solid grey;
+  color: grey;
+}
 .topnav .search-container button {
 	float: right;
 	padding: 6px 10px;
