@@ -9,6 +9,9 @@ html, body {
 	text-decoration: none;
 	color: black;
 }
+*:focus {
+	outline:none
+}
 
 body {
 	margin: 0;
