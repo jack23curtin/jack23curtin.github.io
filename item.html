@@ -34,17 +34,24 @@ function showSlides(n) {
 </script>
 </head>
 <body>
-<div class="topnav">
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-  <div class="searchCon">
-    <form>
-      <input type="text" name="search" placeholder="Search...">
-    </form>
-  </div>
-</div>
-</div>
+<ul class="nav">
+<li class="sib"><div class="searchCon">
+      <form>
+      <button class="sButton"></button>
+        <input type="text" autocomplete="off" name="search" placeholder="Search...">
+        
+      </form>
+      
+    </div></li>
+
+  <li id="itemleft"class="mostLeft"><a href="#home">Categories</a></li>
+  <li class="mostLeft"><a href="#about">Deals</a></li>
+  <li class="mostLeft"><a href="#clients">About Us</a></li>  
+  <li class="mostLeft"><a href="#contact">Wishlist</a></li>
+  
+  
+  
+</ul>
   <div id="panelItem">
     <div id="itemWrapper">
           <div id="left">
