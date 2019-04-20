@@ -70,9 +70,9 @@ input[type=text] {
 }
 .sib{
 padding: 0px;
-	width:120px;
-    -webkit-transition: width .3s; /* For Safari 3.1 to 6.0 */
-  transition: width .3s;
+	width:150px;
+    -webkit-transition: width .2s; /* For Safari 3.1 to 6.0 */
+  transition: width .2s;
 }
 .sib:hover ~ .mostLeft{
     transform: translate(15px, 0px);
