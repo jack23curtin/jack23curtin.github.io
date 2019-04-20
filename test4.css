@@ -26,10 +26,14 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 20px;
-
+font-size: 17px;
+	color:grey;
 }
 .mostLeft{
        transition: all 1s ease-out;
+}
+.nav li:hover{
+	color:lightgrey;
 }
 input[type=text] {
   width: 0px;
