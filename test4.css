@@ -22,9 +22,8 @@ body {
 	    border-bottom: solid lightgrey 2px;
 }
 
-.nav li a{
+.nav li{
   display: inline-block;
-  font-size: 20px;
   padding: 20px;
 font-size: 17px;
 	color:grey;
@@ -32,7 +31,7 @@ font-size: 17px;
 .mostLeft{
        transition: all 1s ease-out;
 }
-.nav li a:hover{
+.nav li{
 	color:lightgrey;
 }
 input[type=text] {
