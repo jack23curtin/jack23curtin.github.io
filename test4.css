@@ -19,7 +19,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-
+	    border-bottom: solid lightgrey 2px;
 }
 
 .nav li {
