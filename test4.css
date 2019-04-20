@@ -14,6 +14,91 @@ body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
+.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+
+}
+.mostLeft{
+       transition: all 1s ease-out;
+}
+input[type=text] {
+  width: 0px;
+  box-sizing: border-box;
+  border-top: solid white;
+  border-left: solid white;
+  border-right: solid white;
+  border-bottom: solid white;
+  font-size: 16px;
+  background-color: white;
+  
+  background-size: 40px 40px;
+  background-position: 90% 50%; 
+  background-repeat: no-repeat;
+  padding: 12px 0px 12px 0px;
+  -webkit-transition: width 0.1s ease-in-out;
+  transition: width 0.1s ease-in-out;
+  color: white;
+}
+.searchCon{
+    display: inline-block;
+	padding: 0px 0px;
+	text-decoration: none;
+	font-size: 17px;
+	margin: 0 15px;
+    text-align: left;
+
+}
+.sib:hover{
+    width: 250px;
+}
+.sib{
+padding: 0px;
+	width:120px;
+    -webkit-transition: width .3s; /* For Safari 3.1 to 6.0 */
+  transition: width .3s;
+}
+.sib:hover ~ .mostLeft{
+    transform: translate(15px, 0px);
+}
+.sib:hover button{
+    transform: translate(0px, 0px);
+}
+.sib:hover input[type=text]{
+  width: 75%;
+  border-bottom: solid grey;
+  color: grey;
+}
+.sib:focus input[type=text]{
+  width: 100%;
+  border-bottom: solid grey;
+  color: grey;
+}
+#itemleft{
+	padding-left:0px;
+}
+
+.sButton{
+border: solid white;
+	height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+      background-size: 40px 40px;
+float:left;
+-webkit-transition: all 1s; /* For Safari 3.1 to 6.0 */
+  transition: all 1s;
+  transform: translate(15px, 0px);
+}
 
 .topnav {
 	overflow: hidden;
