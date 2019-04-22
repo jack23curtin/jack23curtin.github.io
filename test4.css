@@ -135,15 +135,6 @@ body {
 	padding: 30px;
 	background-color: lightgray; 
 }
-
-#backspace{
-	display:inline-block;
-	margin: 10px;
-	float: left;
-}
-#back{
-	display: none;
-}
 .tileContainer{
 	width: 95%;
 	margin: 0px 10px;
@@ -185,6 +176,8 @@ body {
 	display: grid;
 	grid-gap: 40px;
 	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr) );
+	margin-top: 25px;
+
 }
 .productPageTitle{
 	color: black;
