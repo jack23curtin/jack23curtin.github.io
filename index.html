@@ -23,26 +23,11 @@ body {
 <body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
-	jQuery('body').css('display','none');
 	jQuery('#selectIcon').css('display','none');
 	jQuery(document).ready(function() {
-		jQuery('body').fadeIn(2000);
 		jQuery('#selectIcon').fadeIn(6000);
-		jQuery('a').on('click',function(event){
-			var thetarget = this.getAttribute('target')
-			if (thetarget != "_blank"){			
-				var thehref = this.getAttribute('href')
-				event.preventDefault();
-				jQuery('body').fadeOut(function(){
-					//alert(thehref)
-					window.location = thehref					
-				});
-			}
-		});
 	});
-	setTimeout(function(){
-		jQuery('body').fadeIn();
-	},1000)
+
 </script>
 	<div id="topDiv">
 		<a href="https://jack23curtin.github.io/experience.html"><div id="icon1"><img src="jack23curtin.github.io/images/icons/002-profile.jpg" style="width:100px;height:100px;float:left;">
