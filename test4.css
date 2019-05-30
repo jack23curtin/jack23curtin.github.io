@@ -202,6 +202,7 @@ body {
 #tileInfo{
 	display: none;
 	color: #4c4c4c;
+	padding: 10px;
 }
 .productWrapper {
 	display: grid;
