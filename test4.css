@@ -203,6 +203,7 @@ body {
 	display: none;
 	color: #4c4c4c;
 	padding: 10px;
+	font-size: 23px;
 }
 .productWrapper {
 	display: grid;
