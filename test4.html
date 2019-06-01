@@ -12,9 +12,9 @@ var sticky = nav.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    nav.add("sticky")
+    nav.classList.add("sticky")
   } else {
-    nav.remove("sticky");
+    nav.classList.remove("sticky");
   }
 }
 </script>
