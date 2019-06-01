@@ -27,6 +27,7 @@ body {
   margin: 0;
     padding: 10px;
 	    border-bottom: solid lightgrey 2px;
+	background-color:white;
 }
 
 #nav li{
