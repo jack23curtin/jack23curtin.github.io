@@ -21,7 +21,7 @@ body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
-.nav {
+#nav {
   list-style-type: none;
   text-align: center;
   margin: 0;
@@ -29,20 +29,20 @@ body {
 	    border-bottom: solid lightgrey 2px;
 }
 
-.nav li{
+#nav li{
   display: inline-block;
   padding: 20px;
 font-size: 17px;
 	color:grey;
 	    padding: 0px 20px;
 }
-.nav li a{
+#nav li a{
 	color:grey;
 }
 .mostLeft{
        transition: all 1s ease-out;
 }
-.nav li a:hover{
+#nav li a:hover{
 	color:lightgrey;
 }
 input[type=text] {
