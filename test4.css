@@ -9,7 +9,7 @@ html, body {
 }
 * {
 	box-sizing: border-box;
-	font-family: Verdana,sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	text-decoration: none;
 	color: black;
 }
@@ -19,7 +19,6 @@ html, body {
 
 body {
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
 }
 #nav {
   list-style-type: none;
@@ -128,9 +127,6 @@ float:left;
 	margin: 20px 150px;
 	overflow: hidden;
 }
-body {
-	font-family: Arial, Helvetica, sans-serif;
-}
 .panelInfo {
 	width: fill;
 	display:inline-block;
@@ -206,7 +202,7 @@ body {
 }
 #tileInfo{
 	display: none;
-	color: #4c4c4c;
+	color: black;
 	padding: 10px;
 	font-size: 23px;
 }
@@ -434,7 +430,6 @@ img {
   transition: all 0.5s;
 }
 .container input {
-  font-family: 'Inconsolata', monospace;
   position: absolute;
   margin: auto;
   top: 0;
