@@ -2,6 +2,14 @@
   display: flex;
   justify-content: center;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+	.sticky + #panel {
+  padding-top: 75px;
+}
 html, body {
 	height: 100%;
 	padding: 0;
