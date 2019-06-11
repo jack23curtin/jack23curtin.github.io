@@ -9,6 +9,7 @@ margin-top: 15px;
   width: 100%;
 background-size: 75px 40px;
     background-repeat: no-repeat;
+	    background-position: 120px 15px;
     background-image: url(https://jack23curtin.github.io/imageTest/msimg/mslogo6.png);
 	-webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
