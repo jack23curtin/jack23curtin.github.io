@@ -93,10 +93,12 @@ function myFunction() {
   if (window.pageYOffset >= topOffset) {
     nav.classList.add("sticky")
     smalllogo.style.display = "inline-block"
+    smalllogo.classList.add("fade")
   } else {
     navItem.style.width = "75px"
     navItem.style.height = "40px"
     nav.classList.remove("sticky")
+    smalllogo.classList.remove("fade")
     smalllogo.style.display = "none";
   }
 }
