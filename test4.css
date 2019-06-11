@@ -1,3 +1,12 @@
+#smalllogo{
+	display:none; 
+	background-image: url(https://jack23curtin.github.io/imageTest/msimg/mslogo6.png); 
+	background-size: 75px 40px; 
+	width: 75px; 
+	height: 40px; 
+	background-position: 0px 4px; 
+	background-repeat: no-repeat;
+}
 .image-container {
 margin-top: 15px;
   display: flex;
