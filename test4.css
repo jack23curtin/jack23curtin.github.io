@@ -6,7 +6,15 @@
 	height: 40px; 
 	background-position: 0px 4px; 
 	background-repeat: no-repeat;
+	opacity: 0;
+	transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+  opacity: 1;
 }
+.fade{
+	opacity: 1;
+}
+
 .image-container {
 margin-top: 15px;
   display: flex;
