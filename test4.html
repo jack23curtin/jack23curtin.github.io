@@ -10,7 +10,7 @@
   <img height="100" width="350" src="https://jack23curtin.github.io/imageTest/msimg/mslogo5.png" />
 </div>
 <ul id="nav">
-	<li  style="padding-left:100px;  float:left;"><div id="smalllogo" style="display:none; background-image: url(https://jack23curtin.github.io/imageTest/msimg/mslogo6.png); background-size: 75px 40px; width: 75px; height: 40px;"></div></li>
+	<li  id="navItem" style="padding-left:100px;  float:left;"><div id="smalllogo" style="display:none; background-image: url(https://jack23curtin.github.io/imageTest/msimg/mslogo6.png); background-size: 75px 40px; width: 75px; height: 40px;"></div></li>
 <li class="sib"><div class="searchCon">
       <form>
       <button class="sButton"></button>
@@ -94,8 +94,8 @@ function myFunction() {
     nav.classList.add("sticky")
     smalllogo.style.display = "inline-block"
   } else {
-    nav.style.width = "75px"
-    nav.style.height = "40px"
+    navItem.style.width = "75px"
+    navItem.style.height = "40px"
     nav.classList.remove("sticky")
     smalllogo.style.display = "none";
   }
