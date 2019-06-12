@@ -6,12 +6,17 @@
 	background-position: 0px 4px; 
 	background-repeat: no-repeat;
 	opacity: 0;
-	transition: opacity 0.3s;
-  -webkit-transition: opacity 0.3s;
+	-webkit-animation-name: Fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+  animation-name: Fade;
+  animation-duration: .5s;
 }
-.fade{
-	opacity: 1;
-	display: inline-block;
+@keyframes Fade{
+	0% {opacity: 0;}
+      25% {opacity: 0.25;}
+      50% {opacity: 0.5;}
+      75% {opacity: 0.75;}
+      100% {opacity: 1;}
 }
 
 .image-container {
