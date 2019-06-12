@@ -1,3 +1,7 @@
+.smfade {
+      opacity:1;
+	cursor: pointer;
+    }
 #smalllogo{
 	background-image: url(https://jack23curtin.github.io/imageTest/msimg/mslogo6.png); 
 	background-size: 75px 40px; 
@@ -8,10 +12,7 @@
 	opacity: 0;
 	cursor: default;
 }
-.smfade {
-      opacity:1;
-	cursor: pointer;
-    }
+
 
 
 .image-container {
