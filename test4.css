@@ -6,15 +6,15 @@
 	background-position: 0px 4px; 
 	background-repeat: no-repeat;
 	opacity: 0;
-	-webkit-animation-name: Fade; /* Safari 4.0 - 8.0 */
+	-webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
-  animation-name: Fade;
+  animation-name: fade;
   animation-duration: .5s;
 }
-#smalllogo.Fade {
-      animation: Fade 3s linear 1s forwards;
+#fade {
+      animation: fade 3s linear 1s forwards;
     }
-@keyframes Fade{
+@keyframes fade{
 	0% {opacity: 0;}
       25% {opacity: 0.25;}
       50% {opacity: 0.5;}
