@@ -8,7 +8,7 @@
 	opacity: 0;
 	cursor: default;
 }
-.fade {
+.smfade {
       opacity:1;
 	cursor: pointer;
     }
