@@ -92,10 +92,10 @@ var topOffset = nav.offsetTop;
 function myFunction() {
   if (window.pageYOffset >= topOffset) {
     nav.classList.add("sticky")
-    smalllogo.classList.add("smfade")
+    smalllogo.style.opacity = "0"
   } else {
     nav.classList.remove("sticky")
-    smalllogo.classList.remove("smfade");
+    smalllogo.style.opacity = "1";
 	  
   }
 }
