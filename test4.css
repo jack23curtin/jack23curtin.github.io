@@ -6,9 +6,9 @@
 	background-position: 0px 4px; 
 	background-repeat: no-repeat;
 	opacity: 0;
-	-webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+	-webkit-animation-name: itFade; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
-  animation-name: fade;
+  animation-name: itFade;
   animation-duration: .5s;
 }
 .fade {
