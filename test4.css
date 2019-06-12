@@ -11,6 +11,9 @@
   animation-name: Fade;
   animation-duration: .5s;
 }
+#smalllogo.Fade {
+      animation: Fade 3s linear 1s forwards;
+    }
 @keyframes Fade{
 	0% {opacity: 0;}
       25% {opacity: 0.25;}
