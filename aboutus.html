@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="test4.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="image-container">
+  <img height="100" width="350" src="https://jack23curtin.github.io/imageTest/msimg/mslogo5.png" />
+</div>
+<ul id="nav">
+	 <li  id="navItem" style="padding-left:100px;  float:left; height:40px; width: 75px;"><a href="https://jack23curtin.github.io/test4.html"><div id="smalllogo"></div></li></a>
+<li class="sib"><div class="searchCon">
+      <form>
+      <button class="sButton"></button>
+        <input type="text" autocomplete="off" name="search" placeholder="Search...">
+        
+      </form>
+      
+    </div></li>
+
+  <li id="itemleft"class="mostLeft"><a href="#home">Categories</a></li>
+  <li class="mostLeft"><a href="#about">Deals</a></li>
+  <li class="mostLeft"><a href="#clients">About Us</a></li>  
+  <li style="padding-right:200px" class="mostLeft"><a href="#contact">Wishlist</a></li>
+  
+  
+  
+</ul>
+<div id="panel">
+	<span class="firTitle">About Us</span>
+	<p>We are a group of guys who wanted to put anything a man could want into one place. Quality is our focus, and living up to the American Made standard is one of our main ideals. This is why every product on our website has been hand chosen, and voted on by our small team. Our platform does not explicitly sell these products, but rather markets them. This is a way to ensure to our customers that we have zero biases, and fairly judge each item. Only the finest products will be displayed on our site and they will be updated regularly. Everything that we market is a direct representation of our character. ManShit will never push cheap products to earn a profit. We work for the consumer. They are, and will always be, at the forefront of our operation. We hope our hard work can help you make informed, safe, and exciting purchases.</p>
+</div>
+</body>
+	<script> 
+	window.onscroll = function() {myFunction()};
+var nav = document.getElementById("nav");
+var smalllogo = document.getElementById("smalllogo");
+var topOffset = nav.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= topOffset) {
+    nav.classList.add("sticky")
+    smalllogo.style.opacity = "1"
+    smalllogo.style.cursor = "pointer"
+    smalllogo.style.pointerEvents = "auto"
+  } else {
+    nav.classList.remove("sticky")
+    smalllogo.style.opacity = "0"
+    smalllogo.style.cursor = "default"
+    smalllogo.style.pointerEvents= "none";
+	  
+  }
+}
+</script>
+</html>
