@@ -99,4 +99,24 @@ function showSlides(n) {
     </div>
 </div>
 </body>
+	<script> 
+	window.onscroll = function() {myFunction()};
+var nav = document.getElementById("nav");
+var smalllogo = document.getElementById("smalllogo");
+var topOffset = nav.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= topOffset) {
+    nav.classList.add("sticky")
+    smalllogo.style.opacity = "1"
+    smalllogo.style.cursor = "pointer"
+    smalllogo.style.pointerEvents = "auto"
+  } else {
+    nav.classList.remove("sticky")
+    smalllogo.style.opacity = "0"
+    smalllogo.style.cursor = "default"
+    smalllogo.style.pointerEvents= "none";
+	  
+  }
+}
+</script>
 </html>
